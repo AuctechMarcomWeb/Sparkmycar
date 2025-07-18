@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Spark My Car">
+    <meta name="description" content="Spark My Car - Car Wash, Cleaning & Service">
+    <!-- ======== Page title ============ -->
+    <title>Spark My Car</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/img/logo/logo.png">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Icomon.css >>-->
+    <link rel="stylesheet" href="assets/css/icomon.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <style>
+    .gt-hero-1 {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .gt-hero-1 .gt-hero-content p {
+
+        opacity: unset;
+    }
+
+    .multi-text {
+        background: linear-gradient(90deg, #ff6a00, #ff3c3c, #e91e63, #9c27b0, #3f51b5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .fs-15 {
+        font-size: 15px;
+    }
+
+    .gt-how-work-wrapper-3 .gt-how-work-items-3 .line-shape-2 {
+        margin-bottom: 40px;
+    }
+
+    .header-section-2 .header-top-wrapper-2 .top-left li i {
+        color: #ffffff;
+    }
+
+    .gt-project-image-3::before {
+        content: none;
+    }
+
+    .gt-project-image-3 {
+        cursor: pointer;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-list-items {
+        margin-top: 5px;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-list-items li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items .gt-theme-btn .gt-text-btn {
+        padding: 15px;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items {
+        padding: 20px 30px;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header {
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-list-items li i {
+        font-size: 14px;
+    }
+
+    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header h2 {
+        font-size: 35px;
+    }
+
+    .foot-btn i {
+        transform: translateX(0);
+        transition: transform 0.3s ease;
+    }
+
+    .foot-btn:hover i {
+        transform: translateX(5px);
+    }
+
+    /* Optional animation for moving gradient */
+    @keyframes shine {
+        0% {
+            background-position: 0%;
+        }
+
+        100% {
+            background-position: 100%;
+        }
+    }
+
+    .header-section-2 .header-2 .logo img {
+        height: 80px;
+        object-fit: contain;
+
+    }
+
+    .header-section-2.header-section-3 {
+
+        border-bottom: 1px solid #929292;
+    }
+
+    @media (max-width:1200px) {
+        h1 {
+            font-size: 30px;
+        }
+
+        .gt-hero-1 .gt-hero-content p {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .header-section-2 .header-2 .logo img {
+            height: 70px;
+
+        }
+
+        .header-section-2 .header-2 .header-main {
+            padding: 0px 0;
+        }
+    }
+    </style>
+    <!-- Bottom Navigation CSS -->
+    <style>
+    @media (max-width: 768px) {
+        .sticky-footer {
+            height: 50px;
+
+        }
+
+        footer {
+            margin-bottom: 50px;
+        }
+
+        .brochure-btn {
+            position: fixed;
+            bottom: 144px;
+        }
+
+        .gt-back-to-top {
+            right: 10px;
+            bottom: 60px;
+        }
+    }
+
+    .sticky-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        border-top: 1px solid #ddd;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .phone-link {
+        flex: 1;
+        text-decoration: none;
+        color: #eb3300;
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 100%;
+        background-color: white;
+    }
+
+    .demo-btn {
+        flex: 1;
+        height: 100%;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(to right, #eb3300, #faa419);
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
+
+        .phone-link,
+        .demo-btn {
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .whatsapp-float {
+            bottom: 130px;
+        }
+
+        .achievement-wrapper.style3 .achievement-contact-meta {
+            margin-top: -195px;
+        }
+    }
+
+    @media screen and (min-width:500px) {
+        .res-dd-none {
+            display: none !important;
+        }
+
+    }
+    </style>
+</head>
+
+<body>
+
+    <!-- GT Back To Top Start -->
+    <button id="gt-back-top" class="gt-back-to-top show">
+        <img src="assets/img/icon/up-arrow.svg" alt="">
+    </button>
+
+    <!-- GT MouseCursor Start -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-3 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="#">
+                                <img style="height: 60px; object-fit: contain;" src="assets/img/logo/logo-black.png"
+                                    alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <a href="#" class="gt-theme-btn">
+                        <span class="gt-text-btn">
+                            <span class="gt-text-2">BOOKING NOW</span>
+                        </span>
+                    </a>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <!-- Address -->
+                            <li class="d-flex align-items-center mb-2">
+                                <div class="offcanvas__contact-icon me-2">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="https://maps.app.goo.gl/P8E4dGsUUi581oR57" target="_blank">101/4 Mint
+                                        Tower, Indira Nagar, <br> Lucknow, Uttar Pradesh, India– 226016</a>
+                                </div>
+                            </li>
+
+                            <!-- Email -->
+                            <li class="d-flex align-items-center mb-2">
+                                <div class="offcanvas__contact-icon me-2">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="#">info@sparkmycar.com</a>
+                                </div>
+                            </li>
+
+                            <!-- Phone -->
+                            <li class="d-flex align-items-center mb-2">
+                                <div class="offcanvas__contact-icon me-2">
+                                    <i class="fal fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:9026124100">+91 9026124100</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="header-button mt-4">
+
+                        </div>
+
+                        <div class="social-icon d-flex align-items-center pb-5">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header class="header-section-2 header-section-3">
+        <div class="header-top-section-2">
+            <div class="container-fluid">
+                <div class="header-top-wrapper-2" style="background-image: url('assets/img/header-top-bg.png');">
+                    <ul class="top-left">
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>
+                                Email Address:
+                                <a href="mailto:info@sparkmycar.com">info@sparkmycar.com</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>
+                                Phone:
+                                <a href="tel:9026124100">+91 9026124100</a>
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="gt-social-icon d-flex align-items-center">
+                        <span>Follow Us:</span>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-sticky" class="header-1 header-2 header-3">
+            <div class="container-fluid">
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="header-left">
+                            <div class="logo">
+                                <a href="#" class="header-logo">
+                                    <img src="assets/img/logo/logo.png" alt="logo-img">
+                                </a>
+                                <a href="#" class="header-logo-2">
+                                    <img src="assets/img/logo/logo-black.png" alt="logo-img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="index">Home </a>
+                                        </li>
+                                        <li>
+                                            <a href="about">About Us </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our Services </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our Packages </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Gallery </a>
+                                        </li>
+                                        <li>
+                                            <a href="contact">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+
+                            <a href="#" class="gt-theme-btn">
+                                <span class="gt-text-btn">
+                                    <span class="gt-text-2">BOOK APPOINTMENT</span>
+                                </span>
+                            </a>
+                            <div class="header__hamburger d-xl-none my-auto">
+                                <div class="sidebar__toggle">
+                                    <div class="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
