@@ -13,31 +13,23 @@
                </div>
                <div class="card-body">
                   <div class="form-validation">
-                     <form class="needs-validation" method="POST" action="price_insert.php"
+                     <form class="needs-validation" method="POST" action="testimonials_insert.php"
                         enctype="multipart/form-data">
                         <div class="row">
 
-                           <div class="col-xl-4 form-group">
+                           <div class="col-xl-12 form-group">
                               <label class="" for="validationCustom03">Client Name</label>
                               <input type="text" name="name" class="form-control" id="validationCustom03"
                                  placeholder="Enter Client Name" required>
                            </div>
-                            <div class="col-xl-4">
-                              <label class="" for="validationCustom03">Address</label>
-                              <input type="text" name="address" class="form-control" id="validationCustom03"
-                                 placeholder="Enter Address" required>
-                           </div>
-                           <div class="col-xl-4">
-                              <label class="" for="validationCustom03">Image</label>
-                              <input type="file" name="image" accept="image/*" class="form-control"
-                                 id="validationCustom03" required>
-                           </div>
+                           
+                           
                         </div>
                         <div class="row">
                           
                            <div class="col-xl-12 form-group">
                               <label class="" for="validationCustom01">Client Review</label>
-                              <textarea name=""  name="paragraph" class="form-control" id="validationCustom01"
+                              <textarea  name="client_review" class="form-control" id="validationCustom01"
                                  placeholder="Enter Client Review..." rows="5" required></textarea>
                              
                            </div>
@@ -69,8 +61,6 @@
                               <th>S No.</th>
                               <th>Client Name</th>
                               <th>Client Review</th>
-                              <th>Address</th>
-                              <th>Image</th>
                               <th>Action</th>
                            </tr>
                         </thead>
@@ -78,7 +68,7 @@
                            <?php
                            include '../db_con.php';
 
-                           $sel_que = "select*from add_price"; // where condition after make login
+                           $sel_que = "select*from testimonials"; 
                            $res = mysqli_query($con, $sel_que);
                            $i = 1;
                            while ($row = mysqli_fetch_array($res))
@@ -86,18 +76,18 @@
                               ?>
                               <tr>
                                  <td><?php echo $i; ?></td>
-                                 <td><?php echo $row['paragraph']; ?></td>
+                               
                                  <td><?php echo $row['name']; ?></td>
-                                 <td><?php echo $row['address']; ?></td>
-                                 <td><img src="testimonials_uploads/<?php echo $row['image']; ?>" width="100px"></td>
+                                 <td><?php echo $row['client_review']; ?></td>
+                               
                                  <td>
                                     <button type="submit" class="btn btn-primary shadow btn-xs sharp me-1"> <a
-                                          href="price_edit.php?price_id=<?php echo $row['price_id']; ?>"
+                                          href="testimonials_edit.php?testi_id=<?php echo $row['testi_id']; ?>"
                                           style="color:white;"><i class="fas fa-pencil-alt"></i></a></button>
                                  </td>
                                  <td>
                                     <form method="POST" action="price_dlt.php">
-                                       <input type="hidden" name="price_id" value="<?php echo $row['price_id']; ?>">
+                                       <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
                                        <button type="submit" class="btn btn-danger shadow btn-xs sharp" name="delete"
                                           onclick="return confirm('are you sure?')"><i class="fa fa-trash"></i></button>
                                     </form>

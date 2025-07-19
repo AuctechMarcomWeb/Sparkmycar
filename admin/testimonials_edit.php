@@ -1,9 +1,9 @@
 <?php include 'header.php' ?>
 <?php include 'side_menu.php' ?>
 <?php
-$price_id = $_GET['price_id'];
+$testi_id = $_GET['testi_id'];
 include '../db_con.php';
-$que = "select * from add_price where price_id = $price_id";
+$que = "select * from add_price where id = $testi_id";
 $res = mysqli_query($con, $que);
 $row = mysqli_fetch_array($res);
 
@@ -22,7 +22,7 @@ $row = mysqli_fetch_array($res);
                      <form class="needs-validation" method="POST" action="price_upd.php" novalidate enctype="multipart/form-data">
                         <div class="row">
                            <div class="col-xl-6">
-                              <input type="hidden" name="price_id" value="<?php echo $row['price_id']; ?>">
+                              <input type="hidden" name="id" value="<?php echo $row['testi_id']; ?>">
                               <div class="mb-3 row">
                                  <label class="col-lg-4 col-form-label" for="validationCustom01">Client Review
                                     <span class="text-danger">*</span>
@@ -43,26 +43,9 @@ $row = mysqli_fetch_array($res);
                                  </div>
                               </div>
                            </div>
+                          
                            <div class="col-xl-6">
-                              <div class="mb-3 row">
-                                 <label class="col-lg-4 col-form-label" for="validationCustom03">Address
-                                    <span class="text-danger">*</span>
-                                 </label>
-                                 <div class="col-lg-6">
-                                    <input type="text" name="address" class="form-control" id="validationCustom03" placeholder="Enter Rate" value="<?php echo $row['address']; ?>">
-                                 </div>
-                              </div>
-                              
-                           </div>
-                           <div class="col-xl-6">
-                              <div class="mb-3 row">
-                                 <label class="col-lg-4 col-form-label" for="validationCustom03">Image
-                                    <span class="text-danger">*</span>
-                                 </label>
-                                 <div class="col-lg-6">
-                                    <input type="file" name="image" class="form-control" id="validationCustom03" placeholder="Enter Rate" value="<?php echo $row['image']; ?>">
-                                 </div>
-                              </div>
+                             
                               <div class="mb-3 row">
                                  <div class="col-lg-8 ms-auto">
                                     <button type="submit" name="update" class="btn btn-primary">Update</button>
