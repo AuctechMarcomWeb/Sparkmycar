@@ -7,7 +7,7 @@
       <meta name="author" content="DexignZone" />
       <meta name="robots" content="index, follow" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>ANKUR TRADERS | Admin Dashboard </title>
+      <title>Sparkmycar | Admin Dashboard </title>
       <!-- Favicon icon -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -45,7 +45,7 @@
          ***********************************-->
       <div class="nav-header">
          <a href="dashboard.php" class="brand-logo">
-         <img src="images/AT.png" style="height:50px; width: 50px;" alt="">
+         <img src="images/AT.png" style="height:60px; width: 90px;" alt="">
          </a>
          <div class="nav-control">
                 <div class="hamburger">
@@ -158,7 +158,7 @@
                      </li>
                      <li class="nav-item dropdown header-profile">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
-                           <img src="images/AT.png" width="20" alt=""/>
+                           <img src="images/AT.png" width="20" alt="" style="height:40px !important"/>
                            <div class="header-info"class="col-xs-10">
                               <!-- <span><?php echo $_SESSION['firstname'];?></span> -->
                               <small>Super Admin</small>

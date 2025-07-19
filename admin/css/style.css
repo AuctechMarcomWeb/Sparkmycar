@@ -6229,7 +6229,7 @@ textarea.form-control {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgb(238 85 36) !important; }
+     background-color: rgb(235 51 0) !important; }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
@@ -11998,7 +11998,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
         .deznav .metismenu > li:hover > a g [fill], .deznav .metismenu > li:focus > a g [fill] {
           fill: #363062; }
       .deznav .metismenu > li.mm-active > a {
-        background: rgb(238 85 36);
+        background: #eb3300;
         color: #fff !important;
         font-weight: 600;
         box-shadow: none; }
