@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "fox_db";
+$database = "sparkmycar_db";
 
 $con = new mysqli($servername, $username, $password, $database);
 
