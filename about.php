@@ -12,7 +12,7 @@
             </div>
             <ul class="gt-breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                 <li>
-                    <a href="index-2.html">
+                    <a href="index">
                         Home
                     </a>
                 </li>
@@ -98,6 +98,70 @@
                         </ul>
 
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GT Service Section Start -->
+<section class="gt-service-section-2 fix ">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <!-- Service 1: Exterior Foam Wash -->
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="service-box-items text-center">
+                    <div class="icon mb-3">
+                        <i class="fa-solid fa-car-on fa-2x" style="color:#eb3300;"></i>
+                    </div>
+                    <h4><a href="our-services">Exterior Foam Wash</a></h4>
+                </div>
+            </div>
+
+            <!-- Service 2: Interior Vacuum Cleaning -->
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="service-box-items text-center">
+                    <div class="icon mb-3">
+                        <i class="fas fa-wind fa-2x" style="color:#eb3300;"></i>
+                    </div>
+                    <h4><a href="our-services">Interior Vacuum Cleaning</a></h4>
+                </div>
+            </div>
+
+            <!-- Service 3: Dashboard & Panel Polishing -->
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="service-box-items text-center">
+                    <div class="icon mb-3">
+                        <i class="fas fa-spray-can-sparkles fa-2x" style="color:#eb3300;"></i>
+                    </div>
+                    <h4><a href="our-services">Dashboard & Panel Polishing</a></h4>
+                </div>
+            </div>
+
+            <!-- Service 4: Full Body Wax & Shine -->
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                <div class="service-box-items text-center">
+                    <div class="icon mb-3">
+                        <i class="fa-regular fa-star fa-2x" style="color:#eb3300;"></i>
+                    </div>
+                    <h4><a href="our-services">Full Body Wax & Shine</a></h4>
+                </div>
+            </div>
+
+            <!-- Service 5: Alloy Wheel & Tire Cleaning -->
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="service-box-items text-center">
+                    <div class="icon mb-3">
+                        <img width="46" height="46" src="https://img.icons8.com/glyph-neue/eb3300/wheel.png"
+                            alt="wheel" />
+                    </div>
+                    <h4><a href="our-services">Alloy Wheel & Tire Cleaning</a></h4>
+                </div>
+            </div>
+
+            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".9s">
+                <div class="service-box-items style-2">
+                    <h5><a href="our-services">VIEW ALL <br> SERVICE</a></h5>
                 </div>
             </div>
         </div>
@@ -231,7 +295,7 @@
 
 <!-- GT Why Choose Section Start -->
 <section class="gt-why-choose-section bg-cover" style="background-image: url('assets/img/home-2/choose-us-bg.jpg');">
-    <div class="gt-gear-shape">
+    <div class="gt-gear-shape" style="z-index: 9;">
         <img src="assets/img/home-2/gear-shape.png" alt="img">
     </div>
     <div class="container">
@@ -269,7 +333,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/home-2/icon/icon-9.svg" alt="img">
+                                    <img src="https://img.icons8.com/ink/eb3300/worker-male.png" alt="img">
                                 </div>
                                 <div class="content">
                                     <h4>Trained <br> Professionals</h4>
@@ -312,14 +376,14 @@
     </div>
     <div class="container">
         <div class="gt-about-wrapper-2">
-            <div class="row g-4">
+            <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="gt-about-content">
                         <div class="gt-section-title mb-0">
                             <span class="wow fadeInUp">
                                 <img src="assets/img/icon/icon-24.svg" alt="img">Why Choose Spark My Car
                             </span>
-                            <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="wow fadeInUp multi-text" data-wow-delay=".3s">
                                 We Treat Every Car Like It’s Our Own
                             </h2>
                         </div>
@@ -329,55 +393,59 @@
                             From deep interior cleaning to expert polishing, we ensure your car always looks showroom
                             fresh.
                         </p>
+                        <ul class="gt-list wow fadeInUp" data-wow-delay=".5s">
+                            <li>
 
-                        <ul class="gt-icon-list wow fadeInUp" data-wow-delay=".3s">
-                            <li class="d-flex align-items-start">
-                                <div class="icon me-3 mt-1">
-                                    <i class="far fa-gem fa-lg text-primary"></i>
-                                </div>
-                                <div class="content">
-                                    <h4>Premium-Grade Products</h4>
-                                    <span>
-                                        We only use high-quality, safe products to protect your car’s finish and
-                                        interiors.
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start">
-                                <div class="icon me-3 mt-1">
-                                    <i class="far fa-user-cog fa-lg text-primary"></i>
-                                </div>
-                                <div class="content">
-                                    <h4>Trained & Skilled Team</h4>
-                                    <span>
-                                        Our staff is professionally trained to handle each car with precision and care.
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start">
-                                <div class="icon me-3 mt-1">
-                                    <i class="far fa-calendar-check fa-lg text-primary"></i>
-                                </div>
-                                <div class="content">
-                                    <h4>Online Booking & Doorstep Service</h4>
-                                    <span>
-                                        Book your service online and enjoy hassle-free doorstep car cleaning and
-                                        detailing.
-                                    </span>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-start">
-                                <div class="icon me-3 mt-1">
-                                    <i class="far fa-leaf fa-lg text-primary"></i>
-                                </div>
-                                <div class="content">
-                                    <h4>Eco-Friendly Options</h4>
-                                    <span>
-                                        We offer waterless and eco-friendly cleaning services to help save water.
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
+                                <ul class="gt-icon-list wow fadeInUp" data-wow-delay=".3s">
+                                    <li class="d-flex align-items-start gt-feature-list-box">
+                                        <div class="icon me-3 mt-1 gt-list">
+                                            <i class="icon-icon-3 text-danger"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Premium-Grade Products</h4>
+                                            <span>
+                                                We only use high-quality, safe products to protect your car’s finish and
+                                                interiors.
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start">
+                                        <div class="icon me-3 mt-1 gt-list">
+                                            <i class="icon-icon-3 text-danger"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Trained & Skilled Team</h4>
+                                            <span>
+                                                Our staff is professionally trained to handle each car with precision
+                                                and care.
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start">
+                                        <div class="icon me-3 mt-1 gt-list">
+                                            <i class="icon-icon-3 text-danger"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Online Booking & Doorstep Service</h4>
+                                            <span>
+                                                Book your service online and enjoy hassle-free doorstep car cleaning and
+                                                detailing.
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-start">
+                                        <div class="icon me-3 mt-1 gt-list">
+                                            <i class="icon-icon-3 text-danger"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Eco-Friendly Options</h4>
+                                            <span>
+                                                We offer waterless and eco-friendly cleaning services to help save
+                                                water.
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
                     </div>
 
                 </div>
@@ -394,6 +462,8 @@
         </div>
     </div>
 </div>
+
+
 
 <!-- GT Testimonial Section Start -->
 <section class="gt-service-section-3 gt-testimonial-section section-padding fix" style="background: #e4e4e4;">

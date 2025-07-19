@@ -56,6 +56,10 @@
     </div>
 </section>
 
+
+
+
+
 <!-- GT About Section Start -->
 <section class="gt-about-section fix section-padding">
     <div class="gt-right-shape-2">

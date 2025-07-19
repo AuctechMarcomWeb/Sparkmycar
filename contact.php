@@ -11,7 +11,7 @@
             </div>
             <ul class="gt-breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                 <li>
-                    <a href="index-2.html">
+                    <a href="index">
                         Home
                     </a>
                 </li>

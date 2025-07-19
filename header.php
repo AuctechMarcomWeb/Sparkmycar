@@ -32,221 +32,6 @@
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-
-    <style>
-    .gt-hero-1 {
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 55px;
-    }
-
-    .text-justify {
-        text-align: justify;
-    }
-
-    .gt-hero-1 .gt-hero-content p {
-
-        opacity: unset;
-    }
-
-    .multi-text {
-        background: linear-gradient(90deg, #ff6a00, #ff3c3c, #e91e63, #9c27b0, #3f51b5);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .fs-15 {
-        font-size: 15px;
-    }
-
-    .gt-how-work-wrapper-3 .gt-how-work-items-3 .line-shape-2 {
-        margin-bottom: 40px;
-    }
-
-    .header-section-2 .header-top-wrapper-2 .top-left li i {
-        color: #ffffff;
-    }
-
-    .gt-project-image-3::before {
-        content: none;
-    }
-
-    .gt-project-image-3 {
-        cursor: pointer;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-list-items {
-        margin-top: 5px;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-list-items li:not(:last-child) {
-        margin-bottom: 8px;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items .gt-theme-btn .gt-text-btn {
-        padding: 15px;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items {
-        padding: 20px 30px;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header {
-        padding-bottom: 15px;
-        margin-bottom: 10px;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-list-items li i {
-        font-size: 14px;
-    }
-
-    .gt-pricing-wrapper .gt-pricing-box-items .gt-pricing-header h2 {
-        font-size: 35px;
-    }
-
-    .foot-btn i {
-        transform: translateX(0);
-        transition: transform 0.3s ease;
-    }
-
-    .foot-btn:hover i {
-        transform: translateX(5px);
-    }
-
-    /* Optional animation for moving gradient */
-    @keyframes shine {
-        0% {
-            background-position: 0%;
-        }
-
-        100% {
-            background-position: 100%;
-        }
-    }
-
-    .header-section-2 .header-2 .logo img {
-        height: 80px;
-        object-fit: contain;
-
-    }
-
-    .header-section-2.header-section-3 {
-
-        border-bottom: 1px solid #929292;
-    }
-
-    @media (max-width:1200px) {
-        h1 {
-            font-size: 30px;
-        }
-
-        .gt-hero-1 .gt-hero-content p {
-            font-size: 16px;
-            margin-top: 15px;
-        }
-
-        .header-section-2 .header-2 .logo img {
-            height: 70px;
-
-        }
-
-        .header-section-2 .header-2 .header-main {
-            padding: 0px 0;
-        }
-    }
-    </style>
-    <!-- Bottom Navigation CSS -->
-    <style>
-    @media (max-width: 768px) {
-        .sticky-footer {
-            height: 50px;
-
-        }
-
-        footer {
-            margin-bottom: 50px;
-        }
-
-        .brochure-btn {
-            position: fixed;
-            bottom: 144px;
-        }
-
-        .gt-back-to-top {
-            right: 10px;
-            bottom: 60px;
-        }
-    }
-
-    .sticky-footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 50px;
-        border-top: 1px solid #ddd;
-        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-    }
-
-    .phone-link {
-        flex: 1;
-        text-decoration: none;
-        color: #eb3300;
-        font-size: 1rem;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        height: 100%;
-        background-color: white;
-    }
-
-    .demo-btn {
-        flex: 1;
-        height: 100%;
-        color: #ffffff;
-        font-size: 1rem;
-        font-weight: bold;
-        border: none;
-        cursor: pointer;
-        background: linear-gradient(to right, #eb3300, #faa419);
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-    }
-
-    @media (max-width: 768px) {
-
-        .phone-link,
-        .demo-btn {
-            font-size: 0.9rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .whatsapp-float {
-            bottom: 130px;
-        }
-
-        .achievement-wrapper.style3 .achievement-contact-meta {
-            margin-top: -195px;
-        }
-    }
-
-    @media screen and (min-width:500px) {
-        .res-dd-none {
-            display: none !important;
-        }
-
-    }
-    </style>
 </head>
 
 <body>
@@ -267,7 +52,7 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-3 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="#">
+                            <a href="index">
                                 <img style="height: 60px; object-fit: contain;" src="assets/img/logo/logo-black.png"
                                     alt="logo-img">
                             </a>
@@ -392,13 +177,13 @@
                                             <a href="about">About Us </a>
                                         </li>
                                         <li>
-                                            <a href="#">Our Services </a>
+                                            <a href="our-services">Our Services </a>
                                         </li>
                                         <li>
-                                            <a href="#">Our Packages </a>
+                                            <a href="our-packages">Our Packages </a>
                                         </li>
                                         <li>
-                                            <a href="#">Gallery </a>
+                                            <a href="gallery">Gallery </a>
                                         </li>
                                         <li>
                                             <a href="contact">Contact Us</a>

@@ -145,7 +145,7 @@
                 <p class="wow fadeInUp" data-wow-delay=".3s">© 2025 <b>Spark My Car </b> | All Rights Reserved.</p>
                 <ul class="gt-footer-list wow fadeInUp" data-wow-delay=".5s">
                     <li>
-                        Designed & Developed by: <a href="https://www.auctech.in/" target="_blank"
+                       Developed by: <a href="https://www.auctech.in/" target="_blank"
                             class="text-warning">Auctech MarCom</a>
                     </li>
 
