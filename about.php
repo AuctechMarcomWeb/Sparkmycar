@@ -489,7 +489,11 @@
                     <div class="gt-testi-main-box">
                         <div class="swiper gt-testimonial-slider-3">
                             <div class="swiper-wrapper">
-
+                                    <?php
+                                        include('db_con.php');
+                                        $result = $con->query("SELECT client_review, name FROM testimonials");
+                                        while ($row = $result->fetch_assoc()):
+                                    ?>
                                 <div class="swiper-slide">
                                     <div class="gt-testimonial-box">
                                         <div class="gt-testi-content">
@@ -501,12 +505,11 @@
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <h5>
-                                                My car looks absolutely stunning! The polish and shine lasted for
-                                                weeks.
+                                              <?php echo $row['client_review']; ?>
                                             </h5>
                                             <div class="gt-testimonial-info">
                                                 <div class="content">
-                                                    <h3>Ravi Sharma</h3>
+                                                    <h3><?php echo $row['name']; ?></h3>
                                                 </div>
                                                 <div class="icon">
                                                     <img src="assets/img/home-3/icon/quate.svg" alt="img">
@@ -515,85 +518,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                                Great service and punctual team. They really pay attention to the
-                                                details!
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3>Ananya Verma</h3>
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                                Loved how they cleaned even the tightest spots. My SUV feels brand
-                                                new!
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3>Mohd Faizan</h3>
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                                Quick, affordable and spotless results. Definitely booking again
-                                                next month!
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3>Simran Kaur</h3>
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <?php endwhile; ?>
+                               
                             </div>
                         </div>
                     </div>
