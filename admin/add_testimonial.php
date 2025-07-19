@@ -18,20 +18,20 @@
                         <div class="row">
 
                            <div class="col-xl-12 form-group">
-                              <label class="" for="validationCustom03">Client Name</label>
+                              <label class="text-black" for="validationCustom03">Client Name</label>
                               <input type="text" name="name" class="form-control" id="validationCustom03"
                                  placeholder="Enter Client Name" required>
                            </div>
-                           
-                           
+
+
                         </div>
                         <div class="row">
-                          
+
                            <div class="col-xl-12 form-group">
-                              <label class="" for="validationCustom01">Client Review</label>
-                              <textarea  name="client_review" class="form-control" id="validationCustom01"
+                              <label class="text-black" for="validationCustom01">Client Review</label>
+                              <textarea name="client_review" class="form-control" id="validationCustom01"
                                  placeholder="Enter Client Review..." rows="5" required></textarea>
-                             
+
                            </div>
                            <div class="mb-3 row">
                               <div class="col-lg-8 ms-auto">
@@ -61,47 +61,51 @@
                               <th>S No.</th>
                               <th>Client Name</th>
                               <th>Client Review</th>
-                              <th>Action</th>
+                              <th colspan="2" align="center">Action</th>
                            </tr>
                         </thead>
                         <tbody id="tableBody">
                            <?php
                            include '../db_con.php';
 
-                           $sel_que = "select*from testimonials"; 
+                           $sel_que = "SELECT * FROM testimonials";
                            $res = mysqli_query($con, $sel_que);
                            $i = 1;
                            while ($row = mysqli_fetch_array($res))
                            {
                               ?>
                               <tr>
-                                 <td><?php echo $i; ?></td>
-                               
-                                 <td><?php echo $row['name']; ?></td>
-                                 <td><?php echo $row['client_review']; ?></td>
-                               
+                                 <td><?= $i; ?></td>
+                                 <td><?= $row['name']; ?></td>
+                                 <td><?= $row['client_review']; ?></td>
+
+                                 <!-- Edit Button -->
                                  <td>
-                                    <button type="submit" class="btn btn-primary shadow btn-xs sharp me-1"> <a
-                                          href="testimonials_edit.php?testi_id=<?php echo $row['testi_id']; ?>"
-                                          style="color:white;"><i class="fas fa-pencil-alt"></i></a></button>
-                                 </td>
-                                 <td>
-                                    <form method="POST" action="price_dlt.php">
-                                       <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+                                    <!-- Edit Button -->
+                                    <a href="testimonials_edit.php?id=<?= $row['id']; ?>"
+                                       class="btn btn-primary shadow btn-xs sharp me-1" title="Edit">
+                                       <i class="fas fa-pencil-alt" style="color:white;"></i>
+                                    </a>
+
+                                    <!-- Delete Button -->
+                                    <form method="POST" action="testimonials_dlt.php" style="display:inline;"
+                                       onsubmit="return confirm('Are you sure?');">
+                                       <input type="hidden" name="id" value="<?= $row['id']; ?>">
                                        <button type="submit" class="btn btn-danger shadow btn-xs sharp" name="delete"
-                                          onclick="return confirm('are you sure?')"><i class="fa fa-trash"></i></button>
+                                          title="Delete">
+                                          <i class="fa fa-trash"></i>
+                                       </button>
                                     </form>
                                  </td>
-                                 <!-- <td>
-                             <button type="submit" class="btn btn-success"> <a href="create_task.php?price_id=<?php echo $row['price_id']; ?>"style="color:white;">Create task</a></button>
-                           </td> -->
+
                               </tr>
-                           </tbody>
-                           <?php
-                           $i++;
+                              <?php
+                              $i++;
                            }
                            ?>
+                        </tbody>
                      </table>
+
                   </div>
                </div>
                <div id="pagination" class="d-flex justify-content-center align-items-center mt-3 mb-5">

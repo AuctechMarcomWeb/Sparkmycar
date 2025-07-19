@@ -16,45 +16,52 @@
                         <tr>
                            <th>S.No.</th>
                            <th>Image</th>
-                           <th>Action</th>
+                           <th colspan="2">Action</th>
                         </tr>
                      </thead>
                      <tbody id="tableBody">
                         <?php
                         include '../db_con.php';
 
-                        $sel_que = "select*from gallery"; // where condition after make login
+                        $sel_que = "select*from gallery";
                         $res = mysqli_query($con, $sel_que);
                         $i = 1;
-                        while ($row = mysqli_fetch_array($res)) {
+                        while ($row = mysqli_fetch_array($res))
+                        {
 
 
-                           $image_path = isset($row['image']) ? $row['image'] : 'default-image.jpg'; // Default image if no image found
+                           $image_path = isset($row['image']) ? $row['image'] : 'default-image.jpg';
 
-                        ?>
+                           ?>
                            <tr>
                               <td><?php echo $i; ?></td>
                               <td>
-                                 <img src="gallery_uploads/<?php echo $image_path; ?>" alt="Image" style="max-width: 100px; height: auto;">
+                                 <img src="gallery_uploads/<?php echo $image_path; ?>" alt="Image"
+                                    style="max-width: 100px; height: auto;">
                               </td>
-                              <!-- <td><a type="submit" class="btn btn-primary shadow btn-xs sharp me-1" href="edit_blog.php?id=<?php echo $row['id']; ?>" style="color:white;"><i class="fas fa-pencil-alt"></i></a></td> -->
                               <td>
-                                 <form method="POST" action="image_dlt.php">
+                                 <a type="submit" class="btn btn-primary shadow btn-xs sharp me-1"
+                                    href="gallery_edit.php?id=<?php echo $row['id']; ?>" style="color:white;"><i
+                                       class="fas fa-pencil-alt"></i></a>
+                                 <form method="POST" action="gallery_dlt.php" style="display:inline;">
                                     <input type="hidden" name="user_id" value="<?php echo $row['id']; ?>">
-                                    <button type="submit" class="btn btn-danger shadow btn-xs sharp" name="delete" onclick="return confirm('are you sure?')"><i class="fa fa-trash"></i></button>
+                                    <button type="submit" class="btn btn-danger shadow btn-xs sharp" name="delete"
+                                       onclick="return confirm('are you sure?')"><i class="fa fa-trash"></i></button>
                                  </form>
                               </td>
+                             
                            </tr>
-                     </tbody>
-                  <?php
-                           $i++;
+                        </tbody>
+                        <?php
+                        $i++;
                         }
-                  ?>
+                        ?>
                   </table>
                </div>
             </div>
             <div id="pagination" class="d-flex justify-content-center align-items-center mt-3 mb-5">
-               <button id="prev" class="btn btn-primary mr-2" aria-label="Previous" style="padding: 2px 6px;font-size: 0.813rem;background:rgb(54,48,98)">
+               <button id="prev" class="btn btn-primary mr-2" aria-label="Previous"
+                  style="padding: 2px 6px;font-size: 0.813rem;background:rgb(54,48,98)">
                   <i class="fa fa-arrow-left"></i>
                </button>
 
@@ -68,7 +75,8 @@
                   <!-- Add more checkboxes as needed -->
                </div>
 
-               <button id="next" class="btn btn-primary ml-2" aria-label="Next" style="padding: 2px 6px;font-size: 0.813rem;background:rgb(54,48,98)">
+               <button id="next" class="btn btn-primary ml-2" aria-label="Next"
+                  style="padding: 2px 6px;font-size: 0.813rem;background:rgb(54,48,98)">
                   <i class="fa fa-arrow-right"></i>
                </button>
             </div>
@@ -78,7 +86,7 @@
 </div>
 <?php include 'footer.php' ?>
 <script>
-   document.addEventListener('DOMContentLoaded', function() {
+   document.addEventListener('DOMContentLoaded', function () {
       const rowsPerPage = 7;
       const rows = document.querySelectorAll('#tableBody tr');
       const totalPages = Math.ceil(rows.length / rowsPerPage);
@@ -97,14 +105,14 @@
          document.getElementById('next').disabled = page === totalPages;
       }
 
-      document.getElementById('prev').addEventListener('click', function() {
+      document.getElementById('prev').addEventListener('click', function () {
          if (currentPage > 1) {
             currentPage--;
             showPage(currentPage);
          }
       });
 
-      document.getElementById('next').addEventListener('click', function() {
+      document.getElementById('next').addEventListener('click', function () {
          if (currentPage < totalPages) {
             currentPage++;
             showPage(currentPage);
