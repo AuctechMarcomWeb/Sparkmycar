@@ -32,7 +32,7 @@
           
             <li><a class="" href="contact_list.php" aria-expanded="false">
                 <i class="flaticon-381-heart"></i>
-                <span class="nav-text">Contact List</span>
+                <span class="nav-text">Contact Query List</span>
             </a>
 
             </li>
