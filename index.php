@@ -1,6 +1,6 @@
 <?php include ('header.php') ?>
 
-<!-- GT Hero Section Start -->
+<!-- SparkMyCar Hero Section Start -->
 <section class="gt-hero-section gt-hero-1 fix bg-cover"
     style="background-image: url('assets/img/home-1/hero/hero-bg.jpg');">
     <div class="gt-bg-shape">
@@ -30,7 +30,8 @@
                                     again.
                                 </p>
                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".7s">
-                                    <a href="#" class="gt-theme-btn">
+                                    <a href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you."
+                                        target="_blank" class="gt-theme-btn">
                                         <span class="gt-text-btn">
                                             <span class="gt-text-2">Schedule Wash</span>
                                         </span>
@@ -60,7 +61,7 @@
 
 
 
-<!-- GT About Section Start -->
+<!-- SparkMyCar About Section Start -->
 <section class="gt-about-section fix section-padding">
     <div class="gt-right-shape-2">
         <img src="assets/img/home-3/about/right-shape-2.png" alt="img">
@@ -135,7 +136,7 @@
     </div>
 </section>
 
-<!-- GT Service Section Start -->
+<!-- SparkMyCar Service Section Start -->
 <section class="gt-service-section-3 section-padding section-bg fix">
     <div class="gt-left-shape">
         <img src="assets/img/home-3/service/left-shape.png" alt="img">
@@ -533,7 +534,7 @@
     </div>
 </div>
 
-<!-- GT How Work Section Start -->
+<!-- SparkMyCar How Work Section Start -->
 <section class="gt-how-work-section-3 pb-0 section-padding bg-cover"
     style="background-image: url('assets/img/home-3/how-work-bg.jpg');">
     <div class="container pb-5">
@@ -577,7 +578,7 @@
 
 </section>
 
-<!-- GT Pricing Section Start -->
+<!-- SparkMyCar Pricing Section Start -->
 <section class="gt-pricing-section fix section-padding fix">
     <div class="gt-pricing-left-shape">
         <img src="assets/img/home-2/pricing-left-shape.png" alt="img">
@@ -619,7 +620,9 @@
                                                 ₹799 <sub>/ Full Interior & Exterior</sub>
                                             </h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Complete%20Car%20Wash%20package.%0APrice%3A%20₹799%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Complete%20Car%20Wash%20package.%0APrice%3A%20₹799%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -646,7 +649,9 @@
                                             </h2>
                                         </div>
 
-                                        <a target="_blank" href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'm%20interested%20in%20the%20Car%20Polish%20%2B%20Teflon%20Package.%0APrice%3A%20₹1499%0A%0AKindly%20let%20me%20know%20the%20next%20available%20slot.%0AThanks." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'm%20interested%20in%20the%20Car%20Polish%20%2B%20Teflon%20Package.%0APrice%3A%20₹1499%0A%0AKindly%20let%20me%20know%20the%20next%20available%20slot.%0AThanks."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -694,7 +699,7 @@
     </div>
 </section>
 
-<!-- GT Cta Service Section Start -->
+<!-- SparkMyCar Cta Service Section Start -->
 <section class="gt-cta-service-section bg-cover" style="background-image: url('assets/img/home-2/cta-contact-bg.jpg');">
     <div class="container">
         <div class="gt-cta-service-wrapper">
@@ -723,7 +728,7 @@
     </div>
 </section>
 
-<!-- GT Project Section Start -->
+<!-- SparkMyCar Project Section Start -->
 <section class="gt-project-section-3 fix section-padding">
     <div class="gt-right-shape">
         <img src="assets/img/home-3/project/right-shape.png" alt="img">
@@ -772,7 +777,7 @@
 
 
 
-<!-- GT Testimonial Section Start -->
+<!-- SparkMyCar Testimonial Section Start -->
 <section class="gt-service-section-3 gt-testimonial-section section-padding fix" style="background: #e4e4e4;">
     <div class="gt-left-shape">
         <img src="assets/img/home-3/service/left-shape.png" alt="img">

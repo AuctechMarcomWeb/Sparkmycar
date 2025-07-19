@@ -1,6 +1,6 @@
 <?php include ('header.php') ?>
 
-<!-- GT Breadcrunb Section Start -->
+<!-- SparkMyCar Breadcrunb Section Start -->
 <div class="gt-breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
     <div class="gt-right-shape">
         <img src="assets/img/breadcrumb-shape.jpg" alt="img">
@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<!-- GT About Section Start -->
+<!-- SparkMyCar About Section Start -->
 <section class="gt-about-section fix section-padding">
     <div class="gt-left-shape-1">
         <img src="assets/img/home-1/about/left-shape.png" alt="img">
@@ -104,7 +104,7 @@
     </div>
 </section>
 
-<!-- GT Service Section Start -->
+<!-- SparkMyCar Service Section Start -->
 <section class="gt-service-section-2 fix ">
     <div class="container">
         <div class="row g-4 align-items-center">
@@ -293,7 +293,7 @@
     </div>
 </div>
 
-<!-- GT Why Choose Section Start -->
+<!-- SparkMyCar Why Choose Section Start -->
 <section class="gt-why-choose-section bg-cover" style="background-image: url('assets/img/home-2/choose-us-bg.jpg');">
     <div class="gt-gear-shape" style="z-index: 9;">
         <img src="assets/img/home-2/gear-shape.png" alt="img">
@@ -369,7 +369,7 @@
     </div>
 </section>
 
-<!-- GT About Section Start -->
+<!-- SparkMyCar About Section Start -->
 <div class="gt-about-section-2 fix section-padding ">
     <div class="gt-about-shape">
         <img src="assets/img/home-2/about/about-shape.png" alt="img">
@@ -465,7 +465,7 @@
 
 
 
-<!-- GT Testimonial Section Start -->
+<!-- SparkMyCar Testimonial Section Start -->
 <section class="gt-service-section-3 gt-testimonial-section section-padding fix" style="background: #e4e4e4;">
     <div class="gt-left-shape">
         <img src="assets/img/home-3/service/left-shape.png" alt="img">

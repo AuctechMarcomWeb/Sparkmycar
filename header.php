@@ -36,12 +36,12 @@
 
 <body>
 
-    <!-- GT Back To Top Start -->
+    <!-- SparkMyCar Back To Top Start -->
     <button id="gt-back-top" class="gt-back-to-top show">
         <img src="assets/img/icon/up-arrow.svg" alt="">
     </button>
 
-    <!-- GT MouseCursor Start -->
+    <!-- SparkMyCar MouseCursor Start -->
     <div class="mouseCursor cursor-outer"></div>
     <div class="mouseCursor cursor-inner"></div>
 
@@ -194,7 +194,7 @@
                         </div>
                         <div class="header-right d-flex justify-content-end align-items-center">
 
-                            <a href="#" class="gt-theme-btn">
+                            <a href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you." target="_blank" class="gt-theme-btn">
                                 <span class="gt-text-btn">
                                     <span class="gt-text-2">Schedule Wash</span>
                                 </span>

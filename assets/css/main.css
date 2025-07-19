@@ -12200,7 +12200,9 @@ h1 {
 .header-section-2.header-section-3 {
   border-bottom: 1px solid #929292;
 }
-
+.gt-breadcrumb-wrapper .gt-page-heading {
+  padding: 70px 0 70px;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 30px;

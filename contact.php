@@ -1,5 +1,5 @@
 <?php include ('header.php') ?>
-<!-- GT Breadcrunb Section Start -->
+<!-- SparkMyCar Breadcrunb Section Start -->
 <div class="gt-breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
     <div class="gt-right-shape">
         <img src="assets/img/breadcrumb-shape.jpg" alt="img">
@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<!-- GT Contact Section Start -->
+<!-- SparkMyCar Contact Section Start -->
 <section class="gt-contact-section section-padding fix pb-0">
     <div class="container">
         <div class="row g-4">
@@ -75,7 +75,7 @@
     </div>
 </section>
 
-<!-- GT Contact us Section Start -->
+<!-- SparkMyCar Contact us Section Start -->
 <section class="gt-contact-us-section section-padding pb-0 fix">
     <div class="container">
         <div class="gt-contact-us-wrapper">
@@ -115,7 +115,7 @@
     </div>
 </section>
 
-<!-- GT Map Section Start -->
+<!-- SparkMyCar Map Section Start -->
 <div class="gt-map-section">
     <div class="gt-map-items">
         <div class="googpemap">
