@@ -32,7 +32,7 @@
                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".7s">
                                     <a href="#" class="gt-theme-btn">
                                         <span class="gt-text-btn">
-                                            <span class="gt-text-2">BOOK APPOINTMENT</span>
+                                            <span class="gt-text-2">Schedule Wash</span>
                                         </span>
                                     </a>
                                     <a href="#" class="gt-theme-btn gt-border-style">
@@ -619,7 +619,7 @@
                                                 ₹799 <sub>/ Full Interior & Exterior</sub>
                                             </h2>
                                         </div>
-                                        <a href="#" class="gt-theme-btn">
+                                        <a target="_blank" href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Complete%20Car%20Wash%20package.%0APrice%3A%20₹799%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -646,7 +646,7 @@
                                             </h2>
                                         </div>
 
-                                        <a href="#" class="gt-theme-btn">
+                                        <a target="_blank" href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'm%20interested%20in%20the%20Car%20Polish%20%2B%20Teflon%20Package.%0APrice%3A%20₹1499%0A%0AKindly%20let%20me%20know%20the%20next%20available%20slot.%0AThanks." class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>

@@ -196,7 +196,7 @@
 
                             <a href="#" class="gt-theme-btn">
                                 <span class="gt-text-btn">
-                                    <span class="gt-text-2">BOOK APPOINTMENT</span>
+                                    <span class="gt-text-2">Schedule Wash</span>
                                 </span>
                             </a>
                             <div class="header__hamburger d-xl-none my-auto">
