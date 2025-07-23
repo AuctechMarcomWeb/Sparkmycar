@@ -36,7 +36,7 @@
                                             <span class="gt-text-2">Schedule Wash</span>
                                         </span>
                                     </a>
-                                    <a href="#" class="gt-theme-btn gt-border-style">
+                                    <a href="our-services" class="gt-theme-btn gt-border-style">
                                         <span class="gt-text-btn">
                                             <span class="gt-text-2">OUR SERVICE</span>
                                         </span>
@@ -114,7 +114,7 @@
                             </li>
                         </ul>
                         <div class="gt-about-button wow fadeInUp" data-wow-delay=".3s">
-                            <a href="#" class="gt-theme-btn">
+                            <a href="about" class="gt-theme-btn">
                                 <span class="gt-text-btn">
                                     <span class="gt-text-2">EXPLORE MORE</span>
                                 </span>
@@ -161,13 +161,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Exterior Foam Wash</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Exterior Foam Wash</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Thick foam and water to remove dirt and dust safely.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -184,13 +184,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Interior Vacuum Cleaning</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Interior Vacuum Cleaning</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Complete vacuuming of seats, mats, and corners inside your car.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -207,13 +207,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Dashboard & Panel Polishing</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Dashboard & Panel Polishing</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>We polish dashboards and panels to restore their shine and feel.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -230,13 +230,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Engine Bay Cleaning</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Engine Bay Cleaning</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Gentle cleaning of engine compartment without damage or short-circuit.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -253,13 +253,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Underbody Wash</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Underbody Wash</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Remove mud, salt, and grime from your car’s bottom layer.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -276,13 +276,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Alloy Wheel & Tire Cleaning</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Alloy Wheel & Tire Cleaning</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Deep clean of tires and rims for a bold and shiny look.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -299,13 +299,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Windshield & Glass Cleaning</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Windshield & Glass Cleaning</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Crystal-clear visibility with streak-free glass cleaning.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -322,13 +322,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Full Body Wax & Shine</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Full Body Wax & Shine</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>We restore gloss and protect your paint with premium wax.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -345,13 +345,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Ceramic Coating</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Ceramic Coating</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Get long-lasting paint protection with high-gloss finish (on request).</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -368,13 +368,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Car Sanitization Service</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Car Sanitization Service</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Disinfect your car to kill germs and bacteria for a safe ride.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>
@@ -391,13 +391,13 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="#">Waterless Wash (Eco-Friendly)</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Waterless Wash (Eco-Friendly)</a></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="xriders-bottom">
                                     <p>Eco-friendly car cleaning with no water — safe for the environment.</p>
-                                    <div class="xriders-btn"><a href="#" class="link-btn">Read MORE</a></div>
+                                    <div class="xriders-btn"><a href="our-services" class="link-btn">Read MORE</a></div>
                                 </div>
                             </div>
                         </div>

@@ -89,7 +89,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="#">info@sparkmycar.com</a>
+                                    <a href="mailto:info@sparkmycar.com">info@sparkmycar.com</a>
                                 </div>
                             </li>
 
@@ -158,10 +158,10 @@
                     <div class="header-main">
                         <div class="header-left">
                             <div class="logo">
-                                <a href="#" class="header-logo">
+                                <a href="index" class="header-logo">
                                     <img src="assets/img/logo/logo.png" alt="logo-img">
                                 </a>
-                                <a href="#" class="header-logo-2">
+                                <a href="index" class="header-logo-2">
                                     <img src="assets/img/logo/logo-black.png" alt="logo-img">
                                 </a>
                             </div>

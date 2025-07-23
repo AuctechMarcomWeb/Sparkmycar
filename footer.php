@@ -5,7 +5,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-footer-widget-items">
                         <div class="gt-widget-head">
-                            <a href="#" class="gt-footer-logo">
+                            <a href="index" class="gt-footer-logo">
                                 <img style="height: 80px;" src="assets/img/logo/logo.png" alt="img">
                             </a>
                         </div>
@@ -27,27 +27,27 @@
                         </div>
                         <ul class="gt-list-area">
                             <li>
-                                <a href="#">
+                                <a href="index">
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="about">
                                     About Us
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="our-packages">
                                     Our Packages
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="gallery">
                                     Gallery
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="contact">
                                     Contact Us
                                 </a>
                             </li>
@@ -61,27 +61,27 @@
                         </div>
                         <ul class="gt-list-area">
                             <li>
-                                <a href="#">
+                                <a href="our-services">
                                     Car Wash
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="our-services">
                                     Seat Cleaning
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="our-services">
                                     Dashboard Cleaning
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="our-services">
                                     Roof Cleaning
                                 </a>
                             </li>
                             <li>
-                                <a href="#"
+                                <a href="our-services"
                                     class="btn btn-outline-light btn-sm d-inline-flex align-items-center gap-2 px-3 py-2 rounded-2 transition foot-btn">
                                     View All Services
                                     <i class="fas fa-arrow-right transition"></i>
@@ -163,7 +163,7 @@
             alt="whatsapp--v1"> +91 9026124100
     </a>
     <!-- Right Section: Request a Demo Button -->
-    <a class="demo-btn" href="#">Contact Us</a>
+    <a class="demo-btn" href="contact">Contact Us</a>
 </div>
 
 <!--<< All JS Plugins >>-->
