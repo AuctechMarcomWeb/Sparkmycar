@@ -8,12 +8,12 @@
 	<meta name="author" content="DexignZone" />
 	<meta name="robots" content="index, follow" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="CAPSPLIT : Admin Dashboard  Bootstrap 5 Template" />
-	<meta property="og:title" content="CAPSPLIT :  Admin Dashboard  Bootstrap 5 Template" />
-	<meta property="og:description" content="CAPSPLIT : Admin Dashboard  Bootstrap 5 Template" />
+	<meta name="description" content="CAPSPLIT : Admin Dashboard" />
+	<meta property="og:title" content="CAPSPLIT :  Admin Dashboard" />
+	<meta property="og:description" content="CAPSPLIT : Admin Dashboard" />
 	<meta property="og:image" content="social-image.png"/>
 	<meta name="format-detection" content="telephone=no">
-    <title>Fox Reno Inc -Admin Dashboard </title>
+    <title>Sparkmycar -Admin Login </title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/AT.png">
 	<link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
                             <div class="col-xl-12">
                                 <div class="auth-form">
 									<div class="text-center mb-3">
-										<a href="#"><img src="images/AT-logo.png" width="250" alt=""></a>
+										<a href="#"><img src="images/AT-logo.png" width="200" alt=""></a>
 									</div>
                                     <h4 class="text-center text-primary fw-bold bold mb-4">Login your account</h4>
                                     <form class="form-horizontal" method ="POST" action="check_login.php">

@@ -19,7 +19,7 @@
                            <th>Name</th>
                            <th>Email</th>
                            <th>Mobile No.</th>
-                           <th>Subject</th>
+                         
                            <th>Message</th>
                            <th>Action</th>
                            
@@ -29,7 +29,7 @@
                         <?php
                            include '../db_con.php';
                            
-                           $sel_que="select*from contact";// where condition after make login
+                           $sel_que="select*from contact";
                            $res=mysqli_query($con, $sel_que);
                            $i=1;
                            while ($row=mysqli_fetch_array($res))
@@ -40,7 +40,7 @@
                            <td><?php echo $row['name'];?></td>
                            <td><?php echo $row['email'];?></td>
                            <td><?php echo $row['phone'];?></td>
-                           <td><?php echo $row['subject'];?></td>
+                         
                            <td><?php echo $row['message'];?></td>
                            
 

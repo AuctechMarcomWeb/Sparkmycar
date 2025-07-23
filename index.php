@@ -1,4 +1,4 @@
-<?php include ('header.php') ?>
+<?php include('header.php') ?>
 
 <!-- SparkMyCar Hero Section Start -->
 <section class="gt-hero-section gt-hero-1 fix bg-cover"
@@ -747,25 +747,25 @@
             </div>
         </div>
         <div class="swiper gt-project-slider-2">
+            <?php
+            include('db_con.php');
+
+
+            $result = $con->query("SELECT image FROM gallery ORDER BY id DESC LIMIT 6");
+            ?>
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="gt-project-image-3">
-                        <img src="assets/img/home-3/project/project-01.jpg" alt="img">
+                <?php if ($result->num_rows > 0): ?>
+                    <?php while ($row = $result->fetch_assoc()): ?>
+                        <div class="swiper-slide">
+                            <div class="gt-project-image-3">
+                                <img src="admin/gallery_uploads/<?php echo ($row['image']); ?>" alt="img">
 
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gt-project-image-3">
-                        <img src="assets/img/home-3/project/project-02.jpg" alt="img">
-
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gt-project-image-3">
-                        <img src="assets/img/home-3/project/project-03.jpg" alt="img">
-
-                    </div>
-                </div>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+                <?php else: ?>
+                    <p class="text-center">No Gallery Images found.</p>
+                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -801,7 +801,11 @@
                     <div class="gt-testi-main-box">
                         <div class="swiper gt-testimonial-slider-3">
                             <div class="swiper-wrapper">
-
+                                    <?php
+                                        include('db_con.php');
+                                        $result = $con->query("SELECT client_review, name FROM testimonials");
+                                        while ($row = $result->fetch_assoc()):
+                                    ?>
                                 <div class="swiper-slide">
                                     <div class="gt-testimonial-box">
                                         <div class="gt-testi-content">
@@ -813,12 +817,11 @@
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <h5>
-                                                My car looks absolutely stunning! The polish and shine lasted for
-                                                weeks.
+                                              <?php echo $row['client_review']; ?>
                                             </h5>
                                             <div class="gt-testimonial-info">
                                                 <div class="content">
-                                                    <h3>Ravi Sharma</h3>
+                                                    <h3><?php echo $row['name']; ?></h3>
                                                 </div>
                                                 <div class="icon">
                                                     <img src="assets/img/home-3/icon/quate.svg" alt="img">
@@ -827,85 +830,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                                Great service and punctual team. They really pay attention to the
-                                                details!
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3>Ananya Verma</h3>
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                                Loved how they cleaned even the tightest spots. My SUV feels brand
-                                                new!
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3>Mohd Faizan</h3>
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                                Quick, affordable and spotless results. Definitely booking again
-                                                next month!
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3>Simran Kaur</h3>
-                                                </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <?php endwhile; ?>
+                               
                             </div>
                         </div>
                     </div>
@@ -916,4 +842,4 @@
     </div>
 </section>
 
-<?php include ('footer.php') ?>
+<?php include('footer.php') ?>

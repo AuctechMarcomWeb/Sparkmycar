@@ -3,7 +3,7 @@
 ***********************************-->
 <div class="footer">
     <div class="copyright">
-        <p>Copyright © Designed &amp; Developed by <a href="https://auctech.in/" target="_blank">Auctech MarCom</a> 2024</p>
+        <p>Copyright © Designed &amp; Developed by <a href="https://auctech.in/" target="_blank">Auctech MarCom</a> 2025</p>
     </div>
 </div>
 <!--**********************************

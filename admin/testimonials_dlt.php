@@ -2,9 +2,9 @@
 if(isset($_POST['delete']))
 {
    include '../db_con.php';
-   $price_id =$_POST['price_id'];
+   $id =$_POST['id'];
 
-   $del_que ="delete from add_price where price_id =$price_id";
+   $del_que ="delete from testimonials where id =$id";
    mysqli_query($con,$del_que);
 
 ?>
