@@ -2,7 +2,7 @@
 
 <!-- SparkMyCar Hero Section Start -->
 <section class="gt-hero-section gt-hero-1 fix bg-cover"
-    style="background-image: url('assets/img/home-1/hero/hero-bg.jpg');">
+    style="background-image: url('assets/img/spark-my-car/hero-banner.jpg');">
     <div class="gt-bg-shape">
         <img src="assets/img/home-1/hero/bg-shape.png" alt="img">
     </div>
@@ -46,7 +46,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="gt-hero-image">
-                                <img src="assets/img/home-1/hero/hero-1.png" alt="img">
+                                <img src="assets/img/spark-my-car/main-car.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -72,10 +72,10 @@
                 <div class="col-lg-6">
                     <div class="gt-about-image-items about-image-2">
                         <div class="gt-about-image">
-                            <img src="assets/img/home-3/about/about-01.jpg" alt="img"
+                            <img src="assets/img/spark-my-car/1.jpg" alt="img"
                                 class="gt-about-img-1 wow img-custom-anim-left">
                             <div class="gt-about-image-2">
-                                <img src="assets/img/home-3/about/about-02.jpg" alt="img"
+                                <img src="assets/img/spark-my-car/2.jpg" alt="img"
                                     class="wow img-custom-anim-right">
                             </div>
                         </div>
@@ -584,7 +584,7 @@
         <img src="assets/img/home-2/pricing-left-shape.png" alt="img">
     </div>
     <div class="gt-car-shape">
-        <img src="assets/img/home-3/car-shape.png" alt="img">
+        <img src="assets/img/spark-my-car/3.png" alt="img">
     </div>
     <div class="container">
         <div class="gt-pricing-wrapper">
@@ -712,7 +712,7 @@
             </div>
             <div class="gt-cta-right">
                 <div class="gt-thumb">
-                    <img src="assets/img/home-2/man-servicing.png" alt="img" class="wow img-custom-anim-left">
+                    <img src="assets/img/spark-my-car/service-man.png" alt="img" class="wow img-custom-anim-left">
                 </div>
                 <div class="gt-icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div class="gt-icon">
@@ -787,7 +787,7 @@
             <div class="row g-4">
                 <div class="col-xl-4">
                     <div class="gt-testimonial-image">
-                        <img src="assets/img/home-3/testimonial/01.jpg" alt="img">
+                        <img src="assets/img/spark-my-car/4.jpg" alt="img">
                     </div>
                 </div>
                 <div class="col-xl-8">
