@@ -29,6 +29,61 @@
         --bs-text-opacity: 1;
         color: rgb(17 81 177) !important;
     }
+
+    .carousel-indicators [data-bs-target] {
+        background-color: #dc3545;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    .carousel-indicators {
+
+        bottom: -40px;
+
+    }
+
+    .card {
+        border: none;
+    }
+
+    @media (max-width: 576px) {
+        .carousel-item .card img {
+            height: 100px !important;
+
+        }
+
+        .card-title {
+            font-size: 14px;
+        }
+
+        .mb-0 {
+            font-size: 15px;
+        }
+
+        .gt-shop-list-items.gt-shop-image img {
+            height: 280px !important;
+        }
+    }
+
+    .accordion-button::after {
+
+        content: none;
+    }
+
+    .accordion-item {
+        color: var(--bs-accordion-color);
+        background-color: var(--bs-accordion-bg);
+        border: none;
+    }
+
+    .accordion {
+        --bs-accordion-btn-focus-border-color: white;
+    }
+
+    .gt-shop-details-wrapper .gt-shop-details-content p {
+        margin-top: 2px;
+    }
 </style>
 <!-- SparkMyCar Breadcrunb Section Start -->
 <div class="gt-breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
@@ -102,11 +157,12 @@
                                             <del class="text-danger">₹226.00</del>
                                         </div>
 
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="text-primary fw-semibold text-decoration-underline fs-6">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                                            class="text-primary fw-semibold text-decoration-underline fs-6">
                                             View Details
                                         </a>
 
-                                        <a href="shop-cart.html"  class="btn btn-primary rounded-pill px-4 fw-semibold">
+                                        <a href="shop-cart.html" class="btn btn-primary rounded-pill px-4 fw-semibold">
                                             Add to Cart
                                         </a>
                                     </div>
@@ -313,13 +369,232 @@
                 <div class="gt-shop-details-wrapper">
                     <div class="row g-4">
                         <div class="col-lg-6">
-                            <div class="gt-shop-details-image">
-                                <img src="assets/img/inner/shop-details/details-01.jpg" alt="img">
-                                <span class="gt-box-text">(09% Of)</span>
+                            <!-- Outer Box -->
+                            <div class="gt-shop-details-image p-2">
+
+
+                                <div class="row mb-3">
+                                    <div class="col-md-12">
+                                        <div class="ratio ratio-16x9" style="height:300px">
+                                            <iframe src="https://www.youtube.com/embed/your-video-id" title="Video"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="pt-2 pb-2">Interior + Exterior Foam Wash</h3>
+
+                                <div class="gt-price-list d-flex align-items-center gap-2 pt-4 pb-3">
+                                    <span class="fw-bold fs-5 text-primary me-4">₹149.00</span>
+                                    <p class="text-black">
+                                        <i class="fas fa-clock text-black me-2"></i> 1 hr 21 mins
+                                    </p>
+                                </div>
+
+                                <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                                    <h5 class="mb-0">What is include my Service?</h5>
+                                    <h5 class="mb-0 text-primary ext-decoration-underline" style="cursor: pointer;">See
+                                        all</h5>
+                                </div>
+
+                                <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="card h-100 text-center">
+                                                        <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                            class="card-img-top" alt="Image 1"
+                                                            style="height: 150px; object-fit: cover;">
+                                                        <div class="card-body">
+                                                            <h6 class="card-title">Card Title 1</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="card h-100 text-center">
+                                                        <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                            class="card-img-top" alt="Image 2"
+                                                            style="height: 150px; object-fit: cover;">
+                                                        <div class="card-body">
+                                                            <h6 class="card-title">Card Title 2</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="card h-100 text-center">
+                                                        <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                            class="card-img-top" alt="Image 3"
+                                                            style="height: 150px; object-fit: cover;">
+                                                        <div class="card-body">
+                                                            <h6 class="card-title">Card Title 3</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="card h-100 text-center">
+                                                        <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                            class="card-img-top" alt="Image 4"
+                                                            style="height: 150px; object-fit: cover;">
+                                                        <div class="card-body">
+                                                            <h6 class="card-title">Card Title 4</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="card h-100 text-center">
+                                                        <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                            class="card-img-top" alt="Image 5"
+                                                            style="height: 150px; object-fit: cover;">
+                                                        <div class="card-body">
+                                                            <h6 class="card-title">Card Title 5</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="card h-100 text-center">
+                                                        <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                            class="card-img-top" alt="Image 6"
+                                                            style="height: 150px; object-fit: cover;">
+                                                        <div class="card-body">
+                                                            <h6 class="card-title">Card Title 6</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="carousel-indicators mt-3">
+                                        <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                    </div>
+
+
+                                </div>
+
+
+
                             </div>
                         </div>
+
                         <div class="col-lg-6">
+
+
                             <div class="gt-shop-details-content">
+                                <div class="row">
+                                    <div class="faq-items mt-0 ms-0">
+                                        <div class="accordion" id="accordionExample">
+                                            <!-- Accordion Item -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingOne">
+
+                                                    <button
+                                                        class="accordion-button collapsed d-flex justify-content-between"
+                                                        type="button" onclick="event.preventDefault();">
+                                                        <span class="text-black fw-bold fs-5">Recommended Add-Ons</span>
+
+                                                        <span class="toggle-icon ms-auto" role="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                            aria-expanded="false" aria-controls="collapseOne">
+                                                            <i class="bi bi-chevron-right" id="iconOne"></i>
+                                                        </span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <!-- Item 1 -->
+                                                        <div class="row align-items-center border rounded p-2 mb-2">
+                                                            <div class="col-3 col-md-2">
+                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                                    alt="Service" class="img-fluid rounded">
+                                                            </div>
+                                                            <div class="col-6 col-md-8">
+                                                                <h6>Dustbin</h6>
+                                                                <p>₹ 30</p>
+                                                            </div>
+                                                            <div class="col-3 col-md-2 text-end">
+                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Item 2 -->
+                                                        <div class="row align-items-center border rounded p-2 mb-2">
+                                                            <div class="col-3 col-md-2">
+                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                                    alt="Service" class="img-fluid rounded">
+                                                            </div>
+                                                            <div class="col-6 col-md-8">
+                                                                <h6>Wiper</h6>
+                                                                <p>₹ 50</p>
+                                                            </div>
+                                                            <div class="col-3 col-md-2 text-end">
+                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Item 3 -->
+                                                        <div class="row align-items-center border rounded p-2 mb-2">
+                                                            <div class="col-3 col-md-2">
+                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                                    alt="Service" class="img-fluid rounded">
+                                                            </div>
+                                                            <div class="col-6 col-md-8">
+                                                                <h6>Floor Mat</h6>
+                                                                <p>₹ 100</p>
+                                                            </div>
+                                                            <div class="col-3 col-md-2 text-end">
+                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Item 4 -->
+                                                        <div class="row align-items-center border rounded p-2 mb-2">
+                                                            <div class="col-3 col-md-2">
+                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                                    alt="Service" class="img-fluid rounded">
+                                                            </div>
+                                                            <div class="col-6 col-md-8">
+                                                                <h6>Perfume</h6>
+                                                                <p>₹ 60</p>
+                                                            </div>
+                                                            <div class="col-3 col-md-2 text-end">
+                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Item 5 -->
+                                                        <div class="row align-items-center border rounded p-2">
+                                                            <div class="col-3 col-md-2">
+                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                                    alt="Service" class="img-fluid rounded">
+                                                            </div>
+                                                            <div class="col-6 col-md-8">
+                                                                <h6>Microfiber Cloth</h6>
+                                                                <p>₹ 40</p>
+                                                            </div>
+                                                            <div class="col-3 col-md-2 text-end">
+                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <h6><span>Brand:</span> Carofix</h6>
                                 <h2>Full-Face Helmets</h2>
                                 <ul class="price-list">
@@ -400,4 +675,19 @@
         </div>
     </div>
 </div>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 <?php include('footer.php') ?>
+<script>
+    const collapseOne = document.getElementById('collapseOne');
+    const iconOne = document.getElementById('iconOne');
+
+    collapseOne.addEventListener('show.bs.collapse', function () {
+        iconOne.classList.remove('bi-chevron-right');
+        iconOne.classList.add('bi-chevron-down');
+    });
+
+    collapseOne.addEventListener('hide.bs.collapse', function () {
+        iconOne.classList.remove('bi-chevron-down');
+        iconOne.classList.add('bi-chevron-right');
+    });
+</script>
