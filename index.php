@@ -30,7 +30,7 @@
                                     again.
                                 </p>
                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".7s">
-                                    <a href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you."
+                                    <a href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you."
                                         target="_blank" class="gt-theme-btn">
                                         <span class="gt-text-btn">
                                             <span class="gt-text-2">Schedule Wash</span>
@@ -139,7 +139,7 @@
 <!-- SparkMyCar Service Section Start -->
 <section class="gt-service-section-3 section-padding section-bg fix">
     <div class="gt-left-shape">
-        <img src="assets/img/home-3/service/left-shape.png" alt="img">
+        <img src="assets/img/spark-my-car/home/left-shape.png" alt="img">
     </div>
     <div class="container">
         <div class="gt-section-title text-center">
@@ -155,7 +155,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/1.png" alt="Exterior Foam Wash">
+                            <img src="assets/img/spark-my-car/home/1.png" alt="Exterior Foam Wash">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-car"></i></div>
                                 <div class="content-item">
@@ -178,7 +178,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/2.png" alt="Interior Vacuum Cleaning">
+                            <img src="assets/img/spark-my-car/home/2.png" alt="Interior Vacuum Cleaning">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-wind"></i></div>
                                 <div class="content-item">
@@ -201,7 +201,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/3.png" alt="Dashboard Polishing">
+                            <img src="assets/img/spark-my-car/home/3.png" alt="Dashboard Polishing">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-spray-can-sparkles"></i></div>
                                 <div class="content-item">
@@ -224,7 +224,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/4.png" alt="Engine Cleaning">
+                            <img src="assets/img/spark-my-car/home/4.png" alt="Engine Cleaning">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-gears"></i></div>
                                 <div class="content-item">
@@ -247,7 +247,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/5.png" alt="Underbody Wash">
+                            <img src="assets/img/spark-my-car/home/5.png" alt="Underbody Wash">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-water"></i></div>
                                 <div class="content-item">
@@ -270,7 +270,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/6.png" alt="Tire Cleaning">
+                            <img src="assets/img/spark-my-car/home/6.png" alt="Tire Cleaning">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-circle-notch"></i></div>
                                 <div class="content-item">
@@ -293,7 +293,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/7.png" alt="Glass Cleaning">
+                            <img src="assets/img/spark-my-car/home/7.png" alt="Glass Cleaning">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-glass-water"></i></div>
                                 <div class="content-item">
@@ -316,7 +316,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/8.png" alt="Wax & Shine">
+                            <img src="assets/img/spark-my-car/home/8.png" alt="Wax & Shine">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-star"></i></div>
                                 <div class="content-item">
@@ -339,7 +339,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".9s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/9.png" alt="Ceramic Coating">
+                            <img src="assets/img/spark-my-car/home/9.png" alt="Ceramic Coating">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-shield-halved"></i></div>
                                 <div class="content-item">
@@ -362,7 +362,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/10.png" alt="Sanitization">
+                            <img src="assets/img/spark-my-car/home/10.png" alt="Sanitization">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-virus-slash"></i></div>
                                 <div class="content-item">
@@ -385,7 +385,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
                     <div class="gt-xriders-item">
                         <div class="gt-xriders-image">
-                            <img src="assets/img/home-3/service/11.png" alt="Waterless Wash">
+                            <img src="assets/img/spark-my-car/home/11.png" alt="Waterless Wash">
                             <div class="xriders-content">
                                 <div class="icon"><i class="fas fa-droplet-slash"></i></div>
                                 <div class="content-item">
@@ -614,86 +614,190 @@
                             <div class="row g-4">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="gt-pricing-box-items">
+                                        
                                         <div class="gt-pricing-header">
-                                            <h3 class="multi-text">Complete Car Wash</h3>
-                                            <h2>
-                                                ₹799 <sub>/ Full Interior & Exterior</sub>
-                                            </h2>
+                                            <h3 class="multi-text">Single Wash – SUVs</h3>
+                                            <h2>₹399 <sub class="strike-sub">MRP ₹559</sub></h2>
                                         </div>
-                                        <a target="_blank"
-                                            href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Complete%20Car%20Wash%20package.%0APrice%3A%20₹799%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
-                                            class="gt-theme-btn">
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Single%20Wash%20for%20SUVs.%0APrice%3A%20₹399%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
                                         </a>
                                         <ul class="gt-pricing-list-items">
-                                            <li><i class="icon-icon-3"></i> Seat, Floor & Mat Vacuuming</li>
-                                            <li><i class="icon-icon-3"></i> Dashboard & Panel Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Door Panel & Trunk Wash</li>
-                                            <li><i class="icon-icon-3"></i> Windows & Roof Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Full Body Foam Wash</li>
-                                            <li><i class="icon-icon-3"></i> Tyre & Alloy Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Engine Bay Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Glaze Car Spa Fragrance</li>
+                                            <li><i class="icon-icon-3"></i> Full Exterior Wash</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Cleaning</li>
+                                            <li><i class="icon-icon-3"></i> Interior Dusting</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                
+                                <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                        <span class="gt-price-tag" style="font-size: 13px;">PREMIUM PACKAGE</span>
+                                       
                                         <div class="gt-pricing-header">
-                                            <h3 class="multi-text">Car Polish + Teflon Package</h3>
-                                            <h2>
-                                                ₹1499 <sub>/ Full Car 3M Polish & Teflon</sub>
-                                            </h2>
+                                            <h3 class="multi-text">4 Wash Package – SUVs</h3>
+                                            <h2>₹1400 <sub class="strike-sub">MRP ₹1960</sub></h2>
                                         </div>
-
-                                        <a target="_blank"
-                                            href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI'm%20interested%20in%20the%20Car%20Polish%20%2B%20Teflon%20Package.%0APrice%3A%20₹1499%0A%0AKindly%20let%20me%20know%20the%20next%20available%20slot.%0AThanks."
-                                            class="gt-theme-btn">
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%204%20Wash%20Package%20for%20SUVs.%0APrice%3A%20₹1400%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
                                         </a>
-
-                                        <!-- INTERIOR SECTION -->
-                                        <h4 style="margin-top: 10px; font-weight: 800; font-size:16px;">
-                                            <i class="fas fa-check-circle" style="color:green;"></i> INTERIOR
-                                            CLEANING & POLISHING
-                                        </h4>
                                         <ul class="gt-pricing-list-items">
-                                            <li><i class="icon-icon-3"></i> Seat, Floor & Mat Cleaning + Vacuum
-                                            </li>
-                                            <li><i class="icon-icon-3"></i> Roof & Trunk Deep Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Dashboard & Door Panel Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Car Dashboard + Panel 3M Polishing</li>
-                                            <li><i class="icon-icon-3"></i> Car Seat Polish & Vacuum</li>
-                                            <li><i class="icon-icon-3"></i> Interior Fragrance by Glaze Car Spa
-                                            </li>
-                                        </ul>
-
-                                        <!-- EXTERIOR SECTION -->
-                                        <h4 style="margin-top: 10px; font-weight: 800; font-size:16px;">
-                                            <i class="fas fa-check-circle" style="color:green;"></i> EXTERIOR POLISH
-                                            & COATING
-                                        </h4>
-                                        <ul class="gt-pricing-list-items">
-                                            <li><i class="icon-icon-3"></i> Full Body Wash & Foam Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Engine & Tyre Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Windscreen & Glass Cleaning</li>
-                                            <li><i class="icon-icon-3"></i> Full Scratch Removal</li>
-                                            <li><i class="icon-icon-3"></i> 3M Body Cream Polish + Wax Buffing</li>
-                                            <li><i class="icon-icon-3"></i> Full Body Cutter Polish & 3M Teflon
-                                                Coating</li>
+                                            <li><i class="icon-icon-3"></i> 4x Full Exterior Wash</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Cleaning</li>
+                                            <li><i class="icon-icon-3"></i> Interior Dusting</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
                                         </ul>
                                     </div>
                                 </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12">
+                    <div class="tab-content">
+
+                        <div id="MONTHLY" class="tab-pane fade show active">
+                            <div class="row g-4">
+                                
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="gt-pricing-box-items">
+                                       
+                                        <div class="gt-pricing-header">
+                                            <h3 class="multi-text">Single Wash – Hatchback/Sedan</h3>
+                                            <h2>₹299 <sub class="strike-sub">MRP ₹419</sub></h2>
+                                        </div>
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Single%20Wash%20for%20Hatchback%2FSedan.%0APrice%3A%20₹299%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                            <span class="gt-text-btn">
+                                                <span class="gt-text-2">Book Now</span>
+                                            </span>
+                                        </a>
+                                        <ul class="gt-pricing-list-items">
+                                            <li><i class="icon-icon-3"></i> Full Exterior Wash</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Cleaning</li>
+                                            <li><i class="icon-icon-3"></i> Interior Dusting</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="gt-pricing-box-items">
+                                       
+                                        <div class="gt-pricing-header">
+                                            <h3 class="multi-text">4 Wash Package – Hatchback/Sedan</h3>
+                                            <h2>₹1000 <sub class="strike-sub">MRP ₹1400</sub></h2>
+                                        </div>
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%204%20Wash%20Package%20for%20Hatchback%2FSedan.%0APrice%3A%20₹1000%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                            <span class="gt-text-btn">
+                                                <span class="gt-text-2">Book Now</span>
+                                            </span>
+                                        </a>
+                                        <ul class="gt-pricing-list-items">
+                                            <li><i class="icon-icon-3"></i> 4x Full Wash</li>
+                                            <li><i class="icon-icon-3"></i> Daily Exterior Dry/Wet Cleaning</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="gt-pricing-box-items">
+                                       
+                                        <div class="gt-pricing-header">
+                                            <h3 class="multi-text">Monthly Subscription – SUVs</h3>
+                                            <h2>₹1999 <sub class="strike-sub">MRP ₹2799</sub></h2>
+                                        </div>
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Monthly%20Subscription%20for%20SUVs.%0APrice%3A%20₹1999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                            <span class="gt-text-btn">
+                                                <span class="gt-text-2">Book Now</span>
+                                            </span>
+                                        </a>
+                                        <ul class="gt-pricing-list-items">
+                                            <li><i class="icon-icon-3"></i> 4x Full Wash</li>
+                                            <li><i class="icon-icon-3"></i> Daily Exterior Dry/Wet Cleaning</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="gt-pricing-box-items">
+                                       
+                                        <div class="gt-pricing-header">
+                                            <h3 class="multi-text">Monthly Subscription – Hatchback/Sedan</h3>
+                                            <h2>₹1499 <sub class="strike-sub">MRP ₹2099</sub></h2>
+                                        </div>
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Monthly%20Subscription%20for%20Hatchback%2FSedan.%0APrice%3A%20₹1499%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                            <span class="gt-text-btn">
+                                                <span class="gt-text-2">Book Now</span>
+                                            </span>
+                                        </a>
+                                        <ul class="gt-pricing-list-items">
+                                            <li><i class="icon-icon-3"></i> 4x Full Wash</li>
+                                            <li><i class="icon-icon-3"></i> Daily Exterior Dry/Wet Cleaning</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="gt-pricing-box-items">
+                                        
+                                        <div class="gt-pricing-header">
+                                            <h3 class="multi-text">3-Month Subscription – SUVs</h3>
+                                            <h2>₹4999 <sub class="strike-sub">MRP ₹6999</sub></h2>
+                                        </div>
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%203-Month%20Subscription%20for%20SUVs.%0APrice%3A%20₹4999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                            <span class="gt-text-btn">
+                                                <span class="gt-text-2">Book Now</span>
+                                            </span>
+                                        </a>
+                                        <ul class="gt-pricing-list-items">
+                                            <li><i class="icon-icon-3"></i> 12x Full Wash</li>
+                                            <li><i class="icon-icon-3"></i> Daily Exterior Cleaning (90 days)</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-4 col-lg-4 col-md-6">
+                                    <div class="gt-pricing-box-items">
+                                       
+                                        <div class="gt-pricing-header">
+                                            <h3 class="multi-text">3-Month Subscription – Hatchback/Sedan</h3>
+                                            <h2>₹3999 <sub class="strike-sub">MRP ₹5599</sub></h2>
+                                        </div>
+                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%203-Month%20Subscription%20for%20Hatchback%2FSedan.%0APrice%3A%20₹3999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                            <span class="gt-text-btn">
+                                                <span class="gt-text-2">Book Now</span>
+                                            </span>
+                                        </a>
+                                        <ul class="gt-pricing-list-items">
+                                            <li><i class="icon-icon-3"></i> 12x Full Wash</li>
+                                            <li><i class="icon-icon-3"></i> Daily Exterior Cleaning (90 days)</li>
+                                            <li><i class="icon-icon-3"></i> Interior Polish</li>
+                                            <li><i class="icon-icon-3"></i> Tyre Polish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
 
                             </div>
                         </div>
                     </div>
                 </div>
+               
             </div>
         </div>
     </div>
@@ -780,7 +884,7 @@
 <!-- SparkMyCar Testimonial Section Start -->
 <section class="gt-service-section-3 gt-testimonial-section section-padding fix" style="background: #e4e4e4;">
     <div class="gt-left-shape">
-        <img src="assets/img/home-3/service/left-shape.png" alt="img">
+        <img src="assets/img/spark-my-car/home/left-shape.png" alt="img">
     </div>
     <div class="container">
         <div class="gt-testimonial-wrapper-3">

@@ -12308,3 +12308,11 @@ h1 {
     display: none !important;
   }
 }
+
+
+.strike-sub {
+  text-decoration: line-through;
+  color: #888; 
+  font-size: 12px;
+}
+

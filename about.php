@@ -41,10 +41,10 @@
                             <img src="assets/img/home-1/about/box-shape.png" alt="img">
                         </div>
                         <div class="gt-about-image">
-                            <img src="assets/img/home-1/about/about-01.jpg" alt="img"
+                            <img src="assets/img/spark-my-car/about/about -01.jpg" alt="img"
                                 class="gt-about-img-1 wow img-custom-anim-left">
                             <div class="gt-about-image-2">
-                                <img src="assets/img/home-1/about/about-02.jpg" alt="img"
+                                <img src="assets/img/spark-my-car/about/about -002.jpg" alt="img"
                                     class="wow img-custom-anim-right">
                             </div>
                             <div class="gt-counter-box">
@@ -451,9 +451,9 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="gt-about-image">
-                        <img src="assets/img/home-2/about/about-01.jpg" alt="img" class="wow img-custom-anim-left">
+                        <img src="assets/img/spark-my-car/about/about -01(we care).jpg" alt="img" class="wow img-custom-anim-left">
                         <div class="gt-about-image-2">
-                            <img src="assets/img/home-2/about/about-02.jpg" alt="img" class="wow img-custom-anim-right">
+                            <img src="assets/img/spark-my-car/about/about 02 (we care).jpg" alt="img" class="wow img-custom-anim-right">
                         </div>
 
                     </div>
