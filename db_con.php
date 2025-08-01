@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "u622085619_sparkmycar";
-$password = "Auctech@321";
-$database = "u622085619_sparkmycar";
+$username = "root";
+$password = "";
+$database = "sparkmycar_db";
 
 $con = new mysqli($servername, $username, $password, $database);
 
