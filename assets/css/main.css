@@ -34,7 +34,7 @@
   --gt-body: #fff;
   --gt-black: #000;
   --gt-white: #fff;
-  --gt-theme: #eb3300;
+  --gt-theme: #1151b1;
   --gt-header: #161921;
   --gt-text: #696b72;
   --gt-border: #fcfcfc;
@@ -12082,14 +12082,7 @@ h1 {
 }
 
 .multi-text {
-  background: linear-gradient(
-    90deg,
-    #ff6a00,
-    #ff3c3c,
-    #e91e63,
-    #9c27b0,
-    #3f51b5
-  );
+  background: linear-gradient(90deg, #043783, #1151b1, #1b61c7, #9c27b0, #3f51b5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
