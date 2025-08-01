@@ -60,7 +60,6 @@
 
 
 
-
 <!-- SparkMyCar About Section Start -->
 <section class="gt-about-section fix section-padding">
     <div class="gt-right-shape-2">
@@ -75,8 +74,7 @@
                             <img src="assets/img/spark-my-car/1.jpg" alt="img"
                                 class="gt-about-img-1 wow img-custom-anim-left">
                             <div class="gt-about-image-2">
-                                <img src="assets/img/spark-my-car/2.jpg" alt="img"
-                                    class="wow img-custom-anim-right">
+                                <img src="assets/img/spark-my-car/2.jpg" alt="img" class="wow img-custom-anim-right">
                             </div>
                         </div>
                     </div>
@@ -135,6 +133,423 @@
         </div>
     </div>
 </section>
+
+
+
+
+<!-- GT Shop Section Start -->
+<section class="gt-shop-section fix section-padding pt-5">
+    <div class="container">
+        <div class="gt-section-title text-center">
+            <span class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><img
+                    src="assets/img/sub-icon.svg" alt="img">SERVICES WE PROVIDE</span>
+            <h2 class="wow fadeInUp multi-text" data-wow-delay=".3s"
+                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                Our Service at your Doorstep!
+            </h2>
+        </div>
+        <div class="tab-content">
+            <div id="grid" class="tab-pane fade show active">
+                <div class="row bold-black-border">
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">Car Wash</h4>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="gt-shop-card-items bg-style">
+                            <a href="packages.php"></a>
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                            </div>
+                        </div>
+                        <h4 class="text-center p-3">Monthly Packages</h4>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">Deep Clean</h4>
+                        </a>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">Bucket Wash</h4>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="row bold-black-border">
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">Special Car Care</h4>
+                        </a>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">Shine & Coat</h4>
+                        </a>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php"></a>
+                        <div class="gt-shop-card-items bg-style">
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                            </div>
+                        </div>
+                        <h4 class="text-center p-3">Luxury Car care</h4>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">Bike & Scooty</h4>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="row bold-black-border">
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <a href="packages.php">
+                            <div class="gt-shop-card-items bg-style">
+                                <div class="gt-shop-image">
+                                    <img src="assets/img/home-1/shop/shop-01.png" alt="img">
+
+                                </div>
+                            </div>
+                            <h4 class="text-center p-3">More</h4>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="list" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="gt-shop-list-items style-2">
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/list-01.jpg" alt="img">
+                                <ul class="gt-shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="shop-cart.html"><i class="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-cart.html">
+                                            <i class="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-shop-content">
+                                <span>Backpack, Wonder</span>
+                                <h4><a href="shop-details.html">Helmet & Biker Gloves</a></h4>
+                                <div class="gt-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(1 Review)</span>
+                                </div>
+                                <ul class="gt-price-list">
+                                    <li>
+                                        $102.00
+                                    </li>
+                                    <li>
+                                        <del>$226.00</del>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.Auctor urna nunc id cursus. Scelerisque purus semper eget duis at
+                                    pharetra vel turpis nunc eget.
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.
+                                </p>
+                                <a href="shop-cart.html" class="gt-theme-btn">
+                                    <span class="gt-text-btn gt-bg-theme-color">
+                                        <span class="gt-text-2">ADD TO CART</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="gt-shop-list-items style-2">
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/list-02.jpg" alt="img">
+                                <ul class="gt-shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="shop-cart.html"><i class="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-cart.html">
+                                            <i class="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-shop-content">
+                                <span>Backpack, Wonder</span>
+                                <h4><a href="shop-details.html">Helmet & Biker Gloves</a></h4>
+                                <div class="gt-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(1 Review)</span>
+                                </div>
+                                <ul class="gt-price-list">
+                                    <li>
+                                        $102.00
+                                    </li>
+                                    <li>
+                                        <del>$226.00</del>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.Auctor urna nunc id cursus. Scelerisque purus semper eget duis at
+                                    pharetra vel turpis nunc eget.
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.
+                                </p>
+                                <a href="shop-cart.html" class="gt-theme-btn">
+                                    <span class="gt-text-btn gt-bg-theme-color">
+                                        <span class="gt-text-2">ADD TO CART</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="gt-shop-list-items style-2">
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/list-03.jpg" alt="img">
+                                <ul class="gt-shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="shop-cart.html"><i class="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-cart.html">
+                                            <i class="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-shop-content">
+                                <span>Backpack, Wonder</span>
+                                <h4><a href="shop-details.html">Helmet & Biker Gloves</a></h4>
+                                <div class="gt-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(1 Review)</span>
+                                </div>
+                                <ul class="gt-price-list">
+                                    <li>
+                                        $102.00
+                                    </li>
+                                    <li>
+                                        <del>$226.00</del>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.Auctor urna nunc id cursus. Scelerisque purus semper eget duis at
+                                    pharetra vel turpis nunc eget.
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.
+                                </p>
+                                <a href="shop-cart.html" class="gt-theme-btn">
+                                    <span class="gt-text-btn gt-bg-theme-color">
+                                        <span class="gt-text-2">ADD TO CART</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="gt-shop-list-items style-2">
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/list-04.jpg" alt="img">
+                                <ul class="gt-shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="shop-cart.html"><i class="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-cart.html">
+                                            <i class="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-shop-content">
+                                <span>Backpack, Wonder</span>
+                                <h4><a href="shop-details.html">Helmet & Biker Gloves</a></h4>
+                                <div class="gt-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(1 Review)</span>
+                                </div>
+                                <ul class="gt-price-list">
+                                    <li>
+                                        $102.00
+                                    </li>
+                                    <li>
+                                        <del>$226.00</del>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.Auctor urna nunc id cursus. Scelerisque purus semper eget duis at
+                                    pharetra vel turpis nunc eget.
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.
+                                </p>
+                                <a href="shop-cart.html" class="gt-theme-btn">
+                                    <span class="gt-text-btn gt-bg-theme-color">
+                                        <span class="gt-text-2">ADD TO CART</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="gt-shop-list-items style-2">
+                            <div class="gt-shop-image">
+                                <img src="assets/img/home-1/shop/list-05.jpg" alt="img">
+                                <ul class="gt-shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="shop-cart.html"><i class="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-cart.html">
+                                            <i class="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="gt-shop-content">
+                                <span>Backpack, Wonder</span>
+                                <h4><a href="shop-details.html">Helmet & Biker Gloves</a></h4>
+                                <div class="gt-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(1 Review)</span>
+                                </div>
+                                <ul class="gt-price-list">
+                                    <li>
+                                        $102.00
+                                    </li>
+                                    <li>
+                                        <del>$226.00</del>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.Auctor urna nunc id cursus. Scelerisque purus semper eget duis at
+                                    pharetra vel turpis nunc eget.
+                                    Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel
+                                    turpis nunc eget.
+                                </p>
+                                <a href="shop-cart.html" class="gt-theme-btn">
+                                    <span class="gt-text-btn gt-bg-theme-color">
+                                        <span class="gt-text-2">ADD TO CART</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gt-page-nav-wrap pt-5 text-center">
+                    <ul>
+                        <li><a class="gt-page-numbers" href="#"><i class="icon-icon-2"></i></a></li>
+                        <li><a class="gt-page-numbers" href="#">01</a></li>
+                        <li><a class="gt-page-numbers" href="#">02</a></li>
+                        <li><a class="gt-page-numbers" href="#">03</a></li>
+                        <li><a class="gt-page-numbers" href="#"><i class="icon-icon-1"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <!-- SparkMyCar Service Section Start -->
 <section class="gt-service-section-3 section-padding section-bg fix">
@@ -207,7 +622,8 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="our-services">Dashboard & Panel Polishing</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Dashboard & Panel Polishing</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -276,7 +692,8 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="our-services">Alloy Wheel & Tire Cleaning</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Alloy Wheel & Tire Cleaning</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +716,8 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="our-services">Windshield & Glass Cleaning</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Windshield & Glass Cleaning</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -391,7 +809,8 @@
                                 <div class="content-item">
                                     <div class="content">
                                         <div class="text">
-                                            <h3 class="fs-15"><a href="our-services">Waterless Wash (Eco-Friendly)</a></h3>
+                                            <h3 class="fs-15"><a href="our-services">Waterless Wash (Eco-Friendly)</a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -614,12 +1033,14 @@
                             <div class="row g-4">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                        
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">Single Wash – SUVs</h3>
                                             <h2>₹399 <sub class="strike-sub">MRP ₹559</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Single%20Wash%20for%20SUVs.%0APrice%3A%20₹399%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Single%20Wash%20for%20SUVs.%0APrice%3A%20₹399%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -633,15 +1054,17 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                       
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">4 Wash Package – SUVs</h3>
                                             <h2>₹1400 <sub class="strike-sub">MRP ₹1960</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%204%20Wash%20Package%20for%20SUVs.%0APrice%3A%20₹1400%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%204%20Wash%20Package%20for%20SUVs.%0APrice%3A%20₹1400%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -655,7 +1078,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -665,15 +1088,17 @@
 
                         <div id="MONTHLY" class="tab-pane fade show active">
                             <div class="row g-4">
-                                
+
                                 <div class="col-xl-4 col-lg-4 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                       
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">Single Wash – Hatchback/Sedan</h3>
                                             <h2>₹299 <sub class="strike-sub">MRP ₹419</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Single%20Wash%20for%20Hatchback%2FSedan.%0APrice%3A%20₹299%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Single%20Wash%20for%20Hatchback%2FSedan.%0APrice%3A%20₹299%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -689,12 +1114,14 @@
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                       
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">4 Wash Package – Hatchback/Sedan</h3>
                                             <h2>₹1000 <sub class="strike-sub">MRP ₹1400</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%204%20Wash%20Package%20for%20Hatchback%2FSedan.%0APrice%3A%20₹1000%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%204%20Wash%20Package%20for%20Hatchback%2FSedan.%0APrice%3A%20₹1000%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -710,12 +1137,14 @@
 
                                 <div class="col-xl-4 col-lg-4 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                       
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">Monthly Subscription – SUVs</h3>
                                             <h2>₹1999 <sub class="strike-sub">MRP ₹2799</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Monthly%20Subscription%20for%20SUVs.%0APrice%3A%20₹1999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Monthly%20Subscription%20for%20SUVs.%0APrice%3A%20₹1999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -728,15 +1157,17 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-xl-4 col-lg-4 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                       
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">Monthly Subscription – Hatchback/Sedan</h3>
                                             <h2>₹1499 <sub class="strike-sub">MRP ₹2099</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Monthly%20Subscription%20for%20Hatchback%2FSedan.%0APrice%3A%20₹1499%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%20Monthly%20Subscription%20for%20Hatchback%2FSedan.%0APrice%3A%20₹1499%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -749,15 +1180,17 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-xl-4 col-lg-4 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                        
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">3-Month Subscription – SUVs</h3>
                                             <h2>₹4999 <sub class="strike-sub">MRP ₹6999</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%203-Month%20Subscription%20for%20SUVs.%0APrice%3A%20₹4999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%203-Month%20Subscription%20for%20SUVs.%0APrice%3A%20₹4999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -770,15 +1203,17 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-xl-4 col-lg-4 col-md-6">
                                     <div class="gt-pricing-box-items">
-                                       
+
                                         <div class="gt-pricing-header">
                                             <h3 class="multi-text">3-Month Subscription – Hatchback/Sedan</h3>
                                             <h2>₹3999 <sub class="strike-sub">MRP ₹5599</sub></h2>
                                         </div>
-                                        <a target="_blank" href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%203-Month%20Subscription%20for%20Hatchback%2FSedan.%0APrice%3A%20₹3999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you." class="gt-theme-btn">
+                                        <a target="_blank"
+                                            href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI'd%20like%20to%20book%20the%203-Month%20Subscription%20for%20Hatchback%2FSedan.%0APrice%3A%20₹3999%0A%0APlease%20confirm%20the%20available%20slot.%0AThank%20you."
+                                            class="gt-theme-btn">
                                             <span class="gt-text-btn">
                                                 <span class="gt-text-2">Book Now</span>
                                             </span>
@@ -797,7 +1232,7 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </div>
@@ -905,37 +1340,37 @@
                     <div class="gt-testi-main-box">
                         <div class="swiper gt-testimonial-slider-3">
                             <div class="swiper-wrapper">
-                                    <?php
-                                        include('db_con.php');
-                                        $result = $con->query("SELECT client_review, name FROM testimonials");
-                                        while ($row = $result->fetch_assoc()):
+                                <?php
+                                include('db_con.php');
+                                $result = $con->query("SELECT client_review, name FROM testimonials");
+                                while ($row = $result->fetch_assoc()):
                                     ?>
-                                <div class="swiper-slide">
-                                    <div class="gt-testimonial-box">
-                                        <div class="gt-testi-content">
-                                            <div class="gt-star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <h5>
-                                              <?php echo $row['client_review']; ?>
-                                            </h5>
-                                            <div class="gt-testimonial-info">
-                                                <div class="content">
-                                                    <h3><?php echo $row['name']; ?></h3>
+                                    <div class="swiper-slide">
+                                        <div class="gt-testimonial-box">
+                                            <div class="gt-testi-content">
+                                                <div class="gt-star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
                                                 </div>
-                                                <div class="icon">
-                                                    <img src="assets/img/home-3/icon/quate.svg" alt="img">
+                                                <h5>
+                                                    <?php echo $row['client_review']; ?>
+                                                </h5>
+                                                <div class="gt-testimonial-info">
+                                                    <div class="content">
+                                                        <h3><?php echo $row['name']; ?></h3>
+                                                    </div>
+                                                    <div class="icon">
+                                                        <img src="assets/img/home-3/icon/quate.svg" alt="img">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                                 <?php endwhile; ?>
-                               
+
                             </div>
                         </div>
                     </div>
