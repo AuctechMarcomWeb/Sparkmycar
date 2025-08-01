@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="mobile-menu fix mb-3"></div>
-                    <a href="#" class="gt-theme-btn">
+                    <a href="our-packages" class="gt-theme-btn">
                         <span class="gt-text-btn">
                             <span class="gt-text-2">BOOKING NOW</span>
                         </span>
@@ -73,15 +73,15 @@
                         <h4>Contact Info</h4>
                         <ul>
                             <!-- Address -->
-                            <li class="d-flex align-items-center mb-2">
-                                <div class="offcanvas__contact-icon me-2">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="https://maps.app.goo.gl/P8E4dGsUUi581oR57" target="_blank">101/4 Mint
-                                        Tower, Indira Nagar, <br> Lucknow, Uttar Pradesh, India– 226016</a>
-                                </div>
-                            </li>
+                            <!--<li class="d-flex align-items-center mb-2">-->
+                            <!--    <div class="offcanvas__contact-icon me-2">-->
+                            <!--        <i class="fal fa-map-marker-alt"></i>-->
+                            <!--    </div>-->
+                            <!--    <div class="offcanvas__contact-text">-->
+                            <!--        <a href="https://maps.app.goo.gl/P8E4dGsUUi581oR57" target="_blank">101/4 Mint-->
+                            <!--            Tower, Indira Nagar, <br> Lucknow, Uttar Pradesh, India– 226016</a>-->
+                            <!--    </div>-->
+                            <!--</li>-->
 
                             <!-- Email -->
                             <li class="d-flex align-items-center mb-2">
@@ -194,7 +194,7 @@
                         </div>
                         <div class="header-right d-flex justify-content-end align-items-center">
 
-                            <a href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you." target="_blank" class="gt-theme-btn">
+                            <a href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you." target="_blank" class="gt-theme-btn">
                                 <span class="gt-text-btn">
                                     <span class="gt-text-2">Schedule Wash</span>
                                 </span>

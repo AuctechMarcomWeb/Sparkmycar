@@ -98,14 +98,14 @@
                         <div class="gt-footer-content">
 
                             <!-- Address -->
-                            <div class="d-flex align-items-start mb-3 text-light">
-                                <i class="fas fa-map-marker-alt fa-fw mt-1 me-2"></i>
-                                <a href="https://maps.app.goo.gl/P8E4dGsUUi581oR57" target="_blank">
-                                    <p class="mb-0 text-light">
-                                        101/4 Mint Tower, Indira Nagar, <br> Lucknow, Uttar Pradesh, India– 226016
-                                    </p>
-                                </a>
-                            </div>
+                            <!--<div class="d-flex align-items-start mb-3 text-light">-->
+                            <!--    <i class="fas fa-map-marker-alt fa-fw mt-1 me-2"></i>-->
+                            <!--    <a href="https://maps.app.goo.gl/P8E4dGsUUi581oR57" target="_blank">-->
+                            <!--        <p class="mb-0 text-light">-->
+                            <!--            101/4 Mint Tower, Indira Nagar, <br> Lucknow, Uttar Pradesh, India– 226016-->
+                            <!--        </p>-->
+                            <!--    </a>-->
+                            <!--</div>-->
 
                             <!-- Email -->
                             <div class="d-flex align-items-center mb-2 text-light">
@@ -158,7 +158,7 @@
 
 <div class="sticky-footer res-dd-none">
     <!-- Left Section: Phone Number -->
-    <a href="#" class="phone-link">
+    <a target="_blank" href="https://api.whatsapp.com/send/?phone=9026124100" class="phone-link">
         <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/eb3300/whatsapp--v1.png"
             alt="whatsapp--v1"> +91 9026124100
     </a>

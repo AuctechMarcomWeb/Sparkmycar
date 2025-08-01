@@ -34,7 +34,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".1s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/1.png" alt="Exterior Foam Wash">
+                        <img src="assets/img/spark-my-car/home//1.png" alt="Exterior Foam Wash">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -53,7 +53,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".2s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/2.png" alt="Interior Vacuum Cleaning">
+                        <img src="assets/img/spark-my-car/home//2.png" alt="Interior Vacuum Cleaning">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -72,7 +72,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".3s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/3.png" alt="Dashboard & Panel Polishing">
+                        <img src="assets/img/spark-my-car/home//3.png" alt="Dashboard & Panel Polishing">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -90,7 +90,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".4s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/4.png" alt="Engine Bay Cleaning">
+                        <img src="assets/img/spark-my-car/home//4.png" alt="Engine Bay Cleaning">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -109,7 +109,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".5s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/5.png" alt="Underbody Wash">
+                        <img src="assets/img/spark-my-car/home//5.png" alt="Underbody Wash">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -127,7 +127,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".6s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/6.png" alt="Alloy Wheel & Tire Cleaning">
+                        <img src="assets/img/spark-my-car/home//6.png" alt="Alloy Wheel & Tire Cleaning">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -146,7 +146,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".7s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/7.png" alt="Windshield & Glass Cleaning">
+                        <img src="assets/img/spark-my-car/home//7.png" alt="Windshield & Glass Cleaning">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -164,7 +164,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".8s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/8.png" alt="Full Body Wax & Shine">
+                        <img src="assets/img/spark-my-car/home//8.png" alt="Full Body Wax & Shine">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -182,7 +182,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay=".9s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/9.png" alt="Ceramic Coating">
+                        <img src="assets/img/spark-my-car/home//9.png" alt="Ceramic Coating">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -201,7 +201,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay="1s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/10.png" alt="Car Sanitization Service">
+                        <img src="assets/img/spark-my-car/home//10.png" alt="Car Sanitization Service">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -219,7 +219,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp mt-3 mb-5" data-wow-delay="1.1s">
                 <div class="gt-news-card-items gt-bg-color mt-0">
                     <div class="gt-news-image">
-                        <img src="assets/img/home-3/service/11.png" alt="Waterless Wash (Eco-Friendly)">
+                        <img src="assets/img/spark-my-car/home//11.png" alt="Waterless Wash (Eco-Friendly)">
                     </div>
                     <div class="gt-news-content">
                         <h3 class="multi-text">
@@ -234,7 +234,7 @@
             </div>
         </div>
         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".7s">
-            <a href="https://wa.me/9838075493?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you."
+            <a href="https://wa.me/9026124100?text=Hello%20Spark%20My%20Car%2C%0A%0AI%20would%20like%20to%20schedule%20a%20car%20wash.%0AKindly%20share%20the%20available%20slots.%0AThank%20you."
                 target="_blank" class="gt-theme-btn d-flex justify-content-center">
                 <span class="gt-text-btn">
                     <span class="gt-text-2">Schedule Wash</span>

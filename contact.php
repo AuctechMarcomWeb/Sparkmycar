@@ -30,7 +30,7 @@
 <section class="gt-contact-section section-padding fix pb-0">
     <div class="container">
         <div class="row g-4">
-            <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="contact-info-items">
                     <div class="icon">
                         <i class="fa-solid fa-envelope"></i>
@@ -45,21 +45,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-                <div class="contact-info-items">
-                    <div class="icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div class="content">
-                        <h4>Our Address</h4>
-                        <h6>
-                            101/4 Mint Tower, Indira Nagar,
-                            Lucknow, Uttar Pradesh, India– 226016
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
+            <!--<div class="col-xl-4 col-lg-6 col-md-6">-->
+            <!--    <div class="contact-info-items">-->
+            <!--        <div class="icon">-->
+            <!--            <i class="fa-solid fa-location-dot"></i>-->
+            <!--        </div>-->
+            <!--        <div class="content">-->
+            <!--            <h4>Our Address</h4>-->
+            <!--            <h6>-->
+            <!--                101/4 Mint Tower, Indira Nagar,-->
+            <!--                Lucknow, Uttar Pradesh, India– 226016-->
+            <!--            </h6>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="contact-info-items">
                     <div class="icon">
                         <i class="fa-solid fa-phone"></i>
@@ -78,7 +78,7 @@
 </section>
 
 <!-- SparkMyCar Contact us Section Start -->
-<section class="gt-contact-us-section section-padding pb-0 fix">
+<section class="gt-contact-us-section section-padding pb-0 fix mb-5">
     <div class="container">
         <div class="gt-contact-us-wrapper">
             <h2>Get In Touch</h2>
@@ -124,16 +124,16 @@
 </section>
 
 <!-- SparkMyCar Map Section Start -->
-<div class="gt-map-section">
-    <div class="gt-map-items">
-        <div class="googpemap">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.4805872737616!2d80.97793027600065!3d26.888238861140838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957be8139e0cb%3A0xfb2241c78b7a2307!2sMint%20Tower!5e0!3m2!1sen!2sin!4v1752919069591!5m2!1sen!2sin"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-</div>
+<!--<div class="gt-map-section">-->
+<!--    <div class="gt-map-items">-->
+<!--        <div class="googpemap">-->
+<!--            <iframe-->
+<!--                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.4805872737616!2d80.97793027600065!3d26.888238861140838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957be8139e0cb%3A0xfb2241c78b7a2307!2sMint%20Tower!5e0!3m2!1sen!2sin!4v1752919069591!5m2!1sen!2sin"-->
+<!--                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"-->
+<!--                referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <?php include('footer.php') ?>
 
