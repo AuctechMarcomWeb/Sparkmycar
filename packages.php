@@ -85,6 +85,55 @@
         margin-top: 2px;
     }
 </style>
+<style>
+    .feature-list {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .feature-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .feature-list img {
+        flex-shrink: 0;
+        margin-top: 3px;
+    }
+
+    .feature-text {
+        line-height: 1.3;
+    }
+
+    .feature-text small {
+        display: block;
+        color: #ffc107;
+        font-size: 0.85em;
+        font-weight: bold;
+    }
+
+    @media (max-width: 576px) {
+        .feature-text {
+            font-size: 0.95rem;
+        }
+    }
+
+    .accordion-body {
+        background-color: white;
+    }
+
+    .accordion-body h6 {
+        font-size: 1rem;
+        color: #222;
+    }
+
+    .accordion-body p {
+        font-size: 0.95rem;
+        color: #555;
+    }
+</style>
 <!-- SparkMyCar Breadcrunb Section Start -->
 <div class="gt-breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
     <div class="gt-right-shape">
@@ -492,181 +541,280 @@
 
 
                             <div class="gt-shop-details-content">
-                                <div class="row">
-                                    <div class="faq-items mt-0 ms-0">
-                                        <div class="accordion" id="accordionExample">
-                                            <!-- Accordion Item -->
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingOne">
 
-                                                    <button
-                                                        class="accordion-button collapsed d-flex justify-content-between"
-                                                        type="button" onclick="event.preventDefault();">
-                                                        <span class="text-black fw-bold fs-5">Recommended Add-Ons</span>
 
-                                                        <span class="toggle-icon ms-auto" role="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                            aria-expanded="false" aria-controls="collapseOne">
-                                                            <i class="bi bi-chevron-right" id="iconOne"></i>
-                                                        </span>
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body">
-                                                        <!-- Item 1 -->
-                                                        <div class="row align-items-center border rounded p-2 mb-2">
-                                                            <div class="col-3 col-md-2">
-                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
-                                                                    alt="Service" class="img-fluid rounded">
-                                                            </div>
-                                                            <div class="col-6 col-md-8">
-                                                                <h6>Dustbin</h6>
-                                                                <p>₹ 30</p>
-                                                            </div>
-                                                            <div class="col-3 col-md-2 text-end">
-                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
-                                                            </div>
-                                                        </div>
-
-                                                        <!-- Item 2 -->
-                                                        <div class="row align-items-center border rounded p-2 mb-2">
-                                                            <div class="col-3 col-md-2">
-                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
-                                                                    alt="Service" class="img-fluid rounded">
-                                                            </div>
-                                                            <div class="col-6 col-md-8">
-                                                                <h6>Wiper</h6>
-                                                                <p>₹ 50</p>
-                                                            </div>
-                                                            <div class="col-3 col-md-2 text-end">
-                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
-                                                            </div>
-                                                        </div>
-
-                                                        <!-- Item 3 -->
-                                                        <div class="row align-items-center border rounded p-2 mb-2">
-                                                            <div class="col-3 col-md-2">
-                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
-                                                                    alt="Service" class="img-fluid rounded">
-                                                            </div>
-                                                            <div class="col-6 col-md-8">
-                                                                <h6>Floor Mat</h6>
-                                                                <p>₹ 100</p>
-                                                            </div>
-                                                            <div class="col-3 col-md-2 text-end">
-                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
-                                                            </div>
-                                                        </div>
-
-                                                        <!-- Item 4 -->
-                                                        <div class="row align-items-center border rounded p-2 mb-2">
-                                                            <div class="col-3 col-md-2">
-                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
-                                                                    alt="Service" class="img-fluid rounded">
-                                                            </div>
-                                                            <div class="col-6 col-md-8">
-                                                                <h6>Perfume</h6>
-                                                                <p>₹ 60</p>
-                                                            </div>
-                                                            <div class="col-3 col-md-2 text-end">
-                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
-                                                            </div>
-                                                        </div>
-
-                                                        <!-- Item 5 -->
-                                                        <div class="row align-items-center border rounded p-2">
-                                                            <div class="col-3 col-md-2">
-                                                                <img src="assets/img/inner/shop-details/details-01.jpg"
-                                                                    alt="Service" class="img-fluid rounded">
-                                                            </div>
-                                                            <div class="col-6 col-md-8">
-                                                                <h6>Microfiber Cloth</h6>
-                                                                <p>₹ 40</p>
-                                                            </div>
-                                                            <div class="col-3 col-md-2 text-end">
-                                                                <a href="#" class="btn btn-outline-dark btn-sm">ADD</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
+                                <div class="row rounded p-3" style="background:#1151b1">
+                                    <div class="row mb-4 align-items-center">
+                                        <div class="col-md-4">
+                                            <h4 class="fw-bold mb-0 text-white">Local Car Washing Center</h4>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4 class="fw-bold text-warning mb-0 text-center">VS</h4>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4 class="fw-bold text-warning mb-0 text-white">SparkMyCar</h4>
                                         </div>
                                     </div>
+
+                                    <!-- Local Car Washing Center -->
+                                    <div class="col-md-6 border-end mb-3 mb-md-0">
+                                        <div class="text-center mb-5">
+                                            <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                class="img-fluid rounded" alt="Local Car Washing Center"
+                                                style="height:160px; width:260px; border: 2px solid white;">
+                                        </div>
+                                        <ul class="feature-list text-white">
+                                            <li>
+                                                <img width="24" height="24"
+                                                    src="https://img.icons8.com/sf-regular-filled/48/FA5252/cancel.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    No doorstep service
+                                                    <small>(Time wasted visiting center)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Basic exterior pressure wash
+                                                    <small>(Surface cleaning only)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Vacuum only
+                                                    <small>(No interior deep cleaning)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="24" height="24"
+                                                    src="https://img.icons8.com/sf-regular-filled/48/FA5252/cancel.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    No dashboard or plastic polish
+                                                    <small>(Dull interiors)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="24" height="24"
+                                                    src="https://img.icons8.com/sf-regular-filled/48/FA5252/cancel.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    No ceramic coating in standard wash
+                                                    <small>(Optional, extra cost)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="24" height="24"
+                                                    src="https://img.icons8.com/sf-regular-filled/48/FA5252/cancel.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    No complimentary items
+                                                    <small>(No air freshener, mats, tissue box)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="24" height="24"
+                                                    src="https://img.icons8.com/sf-regular-filled/48/FA5252/cancel.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Local quality products used
+                                                    <small>(No assurance)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="24" height="24"
+                                                    src="https://img.icons8.com/sf-regular-filled/48/FA5252/cancel.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    No booking or support
+                                                    <small>(Customer support unavailable)</small>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+
+                                    </div>
+
+                                    <!-- HOORA -->
+                                    <div class="col-md-6">
+                                        <div class="text-center mb-5">
+                                            <img src="assets/img/inner/shop-details/details-01.jpg"
+                                                class="img-fluid rounded" alt="SparkMyCar Car Wash"
+                                                style="height:160px; width:260px;border: 2px solid white;">
+                                        </div>
+
+
+                                        <ul class="feature-list text-white">
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Doorstep professional setup
+                                                    <small>(Saves time & effort)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    High-pressure wash & vacuum cleaning
+                                                    <small>(Deep clean inside-out)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Full interior deep cleaning
+                                                    <small>(Seats, dicky, roof)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Dashboard & trims polish
+                                                    <small>(Fresh & shiny interior)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Hybrid ceramic coating
+                                                    <small>(Long-lasting shine & protection)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Complimentary items
+                                                    <small>(Air freshener, mats, cotton, tissue box)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Premium products & verified staff
+                                                    <small>(Safe, professional care)</small>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img width="20" height="20"
+                                                    src="https://img.icons8.com/fluency-systems-filled/50/40C057/ok.png"
+                                                    alt="ok">
+                                                <div class="feature-text">
+                                                    Live booking, tracking & customer support
+                                                    <small>(Full accountability)</small>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div>
                                 </div>
-                                <h6><span>Brand:</span> Carofix</h6>
-                                <h2>Full-Face Helmets</h2>
-                                <ul class="price-list">
-                                    <li>
-                                        Price: <span>$250.00</span>
-                                    </li>
-                                    <li>
-                                        <del>$279.00</del>
-                                    </li>
-                                </ul>
-                                <span class="eye-icon">
-                                    <i class="fa-regular fa-eye"></i>
-                                    16 people are viewing this right now
-                                </span>
-                                <ul class="color-list">
-                                    <li>
-                                        <span>Color:</span>
-                                    </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <span>(79+ Review)</span>
+                                <h3 class="mt-5 mb-3">Full-Face Helmets</h3>
+                                <div class="row">
+                                    <div class="faq-items mt-3 ms-0">
+                                        <div class="accordion-item border-0">
+                                            <h4 class="accordion-header" id="headingOne">
+                                                <button
+                                                    class="accordion-button collapsed d-flex justify-content-between"
+                                                    type="button" onclick="event.preventDefault();">
+                                                    <span class="text-black fw-bold fs-5">Frequently Asked
+                                                        Questions</span>
+                                                    <span class="toggle-icon ms-auto" role="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="false" aria-controls="collapseOne">
+                                                        <i class="bi bi-chevron-right fw-bold" id="iconOne"></i>
+                                                    </span>
+                                                </button>
+                                            </h4>
+
+                                            <div id="collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body mt-3">
+
+                                                    <!-- Q1 -->
+                                                    <div class="border rounded p-3 mb-3">
+                                                        <h6 class="fw-semibold mb-2">Q1: What is included in a standard
+                                                            car wash?</h6>
+                                                        <hr>
+                                                        <p class="mb-0">A standard wash includes exterior cleaning, tyre
+                                                            wash, and basic interior vacuuming.</p>
+                                                    </div>
+
+                                                    <!-- Q2 -->
+                                                    <div class="border rounded p-3 mb-3">
+                                                        <h6 class="fw-semibold mb-2">Q2: How long does a full car
+                                                            service take?</h6>
+                                                        <hr>
+                                                        <p class="mb-0">It usually takes 1 to 2 hours depending on the
+                                                            package and car size.</p>
+                                                    </div>
+
+                                                    <!-- Q3 -->
+                                                    <div class="border rounded p-3 mb-3">
+                                                        <h6 class="fw-semibold mb-2">Q3: Do you provide doorstep car
+                                                            wash service?</h6>
+                                                        <hr>
+                                                        <p class="mb-0">Yes, we provide doorstep services in selected
+                                                            areas. Please check with our support.</p>
+                                                    </div>
+
+                                                    <!-- Q4 -->
+                                                    <div class="border rounded p-3 ">
+                                                        <h6 class="fw-semibold mb-2">Q4: What products do you use for
+                                                            car cleaning?</h6>
+                                                        <hr>
+                                                        <p class="mb-0">We use premium quality, eco-friendly car care
+                                                            products that are safe for your vehicle.</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
-                                <p>
-                                    Hurry! Only 12 units left in stock!
-                                </p>
+                                <!-- Price Section -->
+                                <div class="row mt-4 align-items-center">
+                                    <!-- Left Column -->
+                                    <div class="col-md-6 text-start">
+                                        <h4 class="fw-bold text-primary mb-1">₹629</h4>
+                                        <p class="text-muted mb-0 text-black">58 mins</p>
+                                    </div>
+
+                                    <!-- Right Column -->
+                                    <div class="col-md-6 text-end">
+                                        <button class="btn btn-dark">Back</button>
+                                    </div>
+                                </div>
+
+
+
                                 <div class="cart-quantity">
-                                    <p class="qty">
-                                        <button class="qtyminus" aria-hidden="true">−</button>
-                                        <input type="number" name="qty" id="qty2" min="1" max="10" step="1" value="1">
-                                        <button class="qtyplus" aria-hidden="true">+</button>
-                                    </p>
+
                                     <a href="shop-details.html" class="shop-btn theme-btn">Add to cart</a>
-                                    <div class="icon-item">
-                                        <a href="shop-details.html" class="icon">
-                                            <i class="far fa-heart"></i>
-                                        </a>
-                                    </div>
+
                                 </div>
-                                <button type="submit" class="buy-btn">
-                                    Buy It Now
-                                </button>
-                                <ul class="gt-list-items">
-                                    <li>
-                                        <span>Certification:</span> Meets DOT, ECE, or Snell safety standards
-                                    </li>
-                                    <li>
-                                        <span>Maximum Protection:</span> Full coverage for your head, face, and chin
-                                    </li>
-                                </ul>
-                                <div class="share-list">
-                                    <span>Share With:</span>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                                <div class="gt-bank-list">
-                                    <div class="">
-                                        Guaranteed
-                                        <span>Safe & Secure Checkout</span>
-                                    </div>
-                                    <img src="assets/img/inner/shop-details/pay_brand.png" alt="img">
-                                </div>
+
+
+
                             </div>
                         </div>
                     </div>
